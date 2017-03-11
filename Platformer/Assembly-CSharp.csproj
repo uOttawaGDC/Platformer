@@ -51,7 +51,9 @@
      <Compile Include="Assets\Ladder\LadderController.cs" />
      <Compile Include="Assets\Ladder\ZoneOneController.cs" />
      <Compile Include="Assets\Ladder\ZoneTwoController.cs" />
+     <Compile Include="Assets\Scripts\Bounce.cs" />
      <Compile Include="Assets\Scripts\Vacuum.cs" />
+     <Compile Include="Assets\Scripts\woodTile.cs" />
      <Compile Include="Assets\kevinzaftScripts\MonkeyMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
