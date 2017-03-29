@@ -1,6 +1,6 @@
 # Platformer
 
-uOttawa game dev club project. 
+uOttawa game dev club project. Live demo hosted [here](https://uottawagdc.github.io/Platformer/PlatformerDemo)
 
 # How to run
 
