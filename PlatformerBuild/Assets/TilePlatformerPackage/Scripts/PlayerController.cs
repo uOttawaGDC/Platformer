@@ -7,22 +7,29 @@ public class PlayerController : MonoBehaviour {
 	public float jumpForce; // how strong the player can jump
 	public float moveForce; // how fast player moves
 
+	private bool canJump;
+
 	private Rigidbody2D rb2d; // ref to players rigid body
 
 	// Use this for initialization
 	void Start () {
+		canJump = false;
 		rb2d = GetComponent<Rigidbody2D> ();
 	}
 		
 	public void OnTriggerEnter2D(Collider2D other){
-		
+
+		if (other.tag == "Stone") {
+			canJump = true;
+		}
+
 		if(other.tag == "Wood" && false){ // if you touch wood when you're the beaver, eat it
 			Destroy (other.gameObject);
 		}
 	}
 
 	public void OnTriggerExit2D(Collider2D other){
-
+		
 	}
 
 	// Update is called once per frame
@@ -50,7 +57,6 @@ public class PlayerController : MonoBehaviour {
 			rb2d.gravityScale = 15;
 		}
 			
-
 
 		//
 		// react to left right movement
@@ -80,7 +86,8 @@ public class PlayerController : MonoBehaviour {
 		//
 		// react to jumping
 		//
-		if(Input.GetKeyDown("space")){			
+		if(Input.GetKeyDown("space") && canJump){
+			canJump = false;
 			rb2d.velocity = rb2d.velocity + new Vector2 (0f, jumpForce);
 		}
 			
