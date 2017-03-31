@@ -8,7 +8,7 @@ Open "PlatformerBuild" folder in unity to run the working build of the game
 
 # TilePlatformerPackage Folder
 
-![](./screenshot2.png)
+![](./screenshot3.png)
 
 # Past Screenshot
 
