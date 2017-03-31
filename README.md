@@ -1,10 +1,15 @@
 # Platformer
 
-uOttawa game dev club project. Live demo hosted [here](https://uottawagdc.github.io/Platformer/PlatformerDemo)
+uOttawa game dev club project. Live demo hosted [here](https://uottawagdc.github.io/Platformer/PlatformerDemo) 
 
-# How to run
 
-Open "PlatformerBuild" folder in unity to run the working build of the game
+# Development
+
+1 Clone this git repo to your desktop. 
+
+2 Start unity
+
+3 Open the "PlatformerBuild" folder in unity to run the working build of the game
 
 # TilePlatformerPackage Folder
 
