@@ -46,17 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bird.cs" />
-     <Compile Include="Assets\Character.cs" />
-     <Compile Include="Assets\Ladder\LadderController.cs" />
-     <Compile Include="Assets\Ladder\ZoneOneController.cs" />
-     <Compile Include="Assets\Ladder\ZoneTwoController.cs" />
-     <Compile Include="Assets\Scripts\Bounce.cs" />
-     <Compile Include="Assets\Scripts\Vacuum.cs" />
-     <Compile Include="Assets\Scripts\woodTile.cs" />
-     <Compile Include="Assets\TilePlatformerPackage\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\kevinzaftScripts\MonkeyMovement.cs" />
-     <Compile Include="Assets\snowmanController.cs" />
+     <Compile Include="Assets\SampleLevel\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\SampleLevel\Scripts\snowmanController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
