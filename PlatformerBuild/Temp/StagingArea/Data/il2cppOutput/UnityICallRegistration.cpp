@@ -1340,6 +1340,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Object
 
+	//Start Registrations for type : UnityEngine.ParticleSystem
+
+		//System.Boolean UnityEngine.ParticleSystem::Internal_Play(UnityEngine.ParticleSystem)
+		void Register_UnityEngine_ParticleSystem_Internal_Play();
+		Register_UnityEngine_ParticleSystem_Internal_Play();
+
+	//End Registrations for type : UnityEngine.ParticleSystem
+
 	//Start Registrations for type : UnityEngine.Physics
 
 		//System.Boolean UnityEngine.Physics::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.RaycastHit&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)

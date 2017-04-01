@@ -107,6 +107,10 @@ struct Coroutine_t2299508840;
 struct Transform_t3275118058;
 // UnityEngine.Object[]
 struct ObjectU5BU5D_t4217747464;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_t3394631041;
+// UnityEngine.ParticleSystem/IteratorDelegate
+struct IteratorDelegate_t2419492168;
 // UnityEngine.RaycastHit[]
 struct RaycastHitU5BU5D_t1214023521;
 // UnityEngine.RaycastHit2D[]
@@ -350,6 +354,14 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470.h"
 #include "UnityEngine_UnityEngine_OperatingSystemFamily1896948788.h"
 #include "UnityEngine_UnityEngine_OperatingSystemFamily1896948788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem_IteratorDel2419492168MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem_IteratorDel2419492168.h"
+#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
 #include "UnityEngine_UnityEngine_Physics634932869.h"
 #include "UnityEngine_UnityEngine_Physics634932869MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_QueryTriggerInteraction478029726.h"
@@ -385,8 +397,6 @@ struct Animator_t69676727;
 #include "mscorlib_System_Threading_Interlocked1625106012MethodDeclarations.h"
 #include "mscorlib_System_Threading_Interlocked1625106012.h"
 #include "UnityEngine_UnityEngine_RectTransform_ReapplyDrive2020713228MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform_Edge3306019089.h"
 #include "UnityEngine_UnityEngine_RectTransform_Axis3420330537.h"
 #include "UnityEngine_UnityEngine_RectTransform_Axis3420330537MethodDeclarations.h"
@@ -455,11 +465,9 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo1761367055.h"
 #include "UnityEngine_UnityEngine_GUILayer3254902478.h"
 #include "UnityEngine_UnityEngine_GUIElement3381083099.h"
-#include "UnityEngine_UnityEngine_GameObject1756533147.h"
 #include "UnityEngine_UnityEngine_Component3819376471.h"
 #include "UnityEngine_UnityEngine_CameraClearFlags452084705.h"
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo1761367055MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Serialization_FormerlySeri3673080018.h"
 #include "UnityEngine_UnityEngine_Serialization_FormerlySeri3673080018MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SerializeField3073427462.h"
@@ -507,9 +515,6 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_Animator69676727.h"
 #include "UnityEngine_UnityEngine_AnimatorStateInfo2577870592.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Anim4078305555.h"
-#include "UnityEngine_UnityEngine_SystemInfo2353426895.h"
-#include "UnityEngine_UnityEngine_SystemInfo2353426895MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_TextAnchor112990806MethodDeclarations.h"
 
 // System.Int32 UnityEngine.Mesh::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
 extern "C"  int32_t Mesh_SafeLength_TisInt32_t2071877448_m2504367186_gshared (Mesh_t1356156583 * __this, List_1_t1440998580 * ___values0, const MethodInfo* method);
@@ -538,6 +543,11 @@ extern "C"  void Mesh_SetListForChannel_TisColor32_t874517518_m1056672865_gshare
 // System.Void UnityEngine.Mesh::SetUvsImpl<UnityEngine.Vector2>(System.Int32,System.Int32,System.Collections.Generic.List`1<T>)
 extern "C"  void Mesh_SetUvsImpl_TisVector2_t2243707579_m3939959910_gshared (Mesh_t1356156583 * __this, int32_t ___uvIndex0, int32_t ___dim1, List_1_t1612828711 * ___uvs2, const MethodInfo* method);
 #define Mesh_SetUvsImpl_TisVector2_t2243707579_m3939959910(__this, ___uvIndex0, ___dim1, ___uvs2, method) ((  void (*) (Mesh_t1356156583 *, int32_t, int32_t, List_1_t1612828711 *, const MethodInfo*))Mesh_SetUvsImpl_TisVector2_t2243707579_m3939959910_gshared)(__this, ___uvIndex0, ___dim1, ___uvs2, method)
+// T UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m2650145732(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// T UnityEngine.GameObject::GetComponent<UnityEngine.ParticleSystem>()
+#define GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(__this, method) ((  ParticleSystem_t3394631041 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 // !!0 System.Threading.Interlocked::CompareExchange<System.Object>(!!0&,!!0,!!0)
 extern "C"  Il2CppObject * Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject ** p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method);
 #define Interlocked_CompareExchange_TisIl2CppObject_m2145889806(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject **, Il2CppObject *, Il2CppObject *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
@@ -11408,6 +11418,266 @@ extern "C" void Object_t1021602117_marshal_com_back(const Object_t1021602117_mar
 extern "C" void Object_t1021602117_marshal_com_cleanup(Object_t1021602117_marshaled_com& marshaled)
 {
 }
+// System.Boolean UnityEngine.ParticleSystem::Internal_Play(UnityEngine.ParticleSystem)
+extern "C"  bool ParticleSystem_Internal_Play_m2372735108 (Il2CppObject * __this /* static, unused */, ParticleSystem_t3394631041 * ___self0, const MethodInfo* method)
+{
+	typedef bool (*ParticleSystem_Internal_Play_m2372735108_ftn) (ParticleSystem_t3394631041 *);
+	static ParticleSystem_Internal_Play_m2372735108_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (ParticleSystem_Internal_Play_m2372735108_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem::Internal_Play(UnityEngine.ParticleSystem)");
+	return _il2cpp_icall_func(___self0);
+}
+// System.Void UnityEngine.ParticleSystem::Play()
+extern "C"  void ParticleSystem_Play_m4171585816 (ParticleSystem_t3394631041 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		V_0 = (bool)1;
+		bool L_0 = V_0;
+		ParticleSystem_Play_m1705837075(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.ParticleSystem::Play(System.Boolean)
+extern Il2CppClass* ParticleSystem_t3394631041_il2cpp_TypeInfo_var;
+extern Il2CppClass* IteratorDelegate_t2419492168_il2cpp_TypeInfo_var;
+extern const MethodInfo* ParticleSystem_U3CPlayU3Em__0_m4250446697_MethodInfo_var;
+extern const uint32_t ParticleSystem_Play_m1705837075_MetadataUsageId;
+extern "C"  void ParticleSystem_Play_m1705837075 (ParticleSystem_t3394631041 * __this, bool ___withChildren0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSystem_Play_m1705837075_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool G_B2_0 = false;
+	ParticleSystem_t3394631041 * G_B2_1 = NULL;
+	bool G_B1_0 = false;
+	ParticleSystem_t3394631041 * G_B1_1 = NULL;
+	{
+		bool L_0 = ___withChildren0;
+		IteratorDelegate_t2419492168 * L_1 = ((ParticleSystem_t3394631041_StaticFields*)ParticleSystem_t3394631041_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_2();
+		G_B1_0 = L_0;
+		G_B1_1 = __this;
+		if (L_1)
+		{
+			G_B2_0 = L_0;
+			G_B2_1 = __this;
+			goto IL_001b;
+		}
+	}
+	{
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)ParticleSystem_U3CPlayU3Em__0_m4250446697_MethodInfo_var);
+		IteratorDelegate_t2419492168 * L_3 = (IteratorDelegate_t2419492168 *)il2cpp_codegen_object_new(IteratorDelegate_t2419492168_il2cpp_TypeInfo_var);
+		IteratorDelegate__ctor_m3692393942(L_3, NULL, L_2, /*hidden argument*/NULL);
+		((ParticleSystem_t3394631041_StaticFields*)ParticleSystem_t3394631041_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_2(L_3);
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_001b:
+	{
+		IteratorDelegate_t2419492168 * L_4 = ((ParticleSystem_t3394631041_StaticFields*)ParticleSystem_t3394631041_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_2();
+		ParticleSystem_IterateParticleSystems_m1240416587(G_B2_1, G_B2_0, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean UnityEngine.ParticleSystem::IterateParticleSystems(System.Boolean,UnityEngine.ParticleSystem/IteratorDelegate)
+extern "C"  bool ParticleSystem_IterateParticleSystems_m1240416587 (ParticleSystem_t3394631041 * __this, bool ___recurse0, IteratorDelegate_t2419492168 * ___func1, const MethodInfo* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		IteratorDelegate_t2419492168 * L_0 = ___func1;
+		bool L_1 = IteratorDelegate_Invoke_m3389138368(L_0, __this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = ___recurse0;
+		if (!L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		bool L_3 = V_0;
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		IteratorDelegate_t2419492168 * L_5 = ___func1;
+		bool L_6 = ParticleSystem_IterateParticleSystemsRecursive_m3260878897(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = (bool)((int32_t)((int32_t)L_3|(int32_t)L_6));
+	}
+
+IL_001e:
+	{
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		bool L_8 = V_1;
+		return L_8;
+	}
+}
+// System.Boolean UnityEngine.ParticleSystem::IterateParticleSystemsRecursive(UnityEngine.Transform,UnityEngine.ParticleSystem/IteratorDelegate)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var;
+extern const uint32_t ParticleSystem_IterateParticleSystemsRecursive_m3260878897_MetadataUsageId;
+extern "C"  bool ParticleSystem_IterateParticleSystemsRecursive_m3260878897 (Il2CppObject * __this /* static, unused */, Transform_t3275118058 * ___transform0, IteratorDelegate_t2419492168 * ___func1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSystem_IterateParticleSystemsRecursive_m3260878897_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Transform_t3275118058 * V_3 = NULL;
+	ParticleSystem_t3394631041 * V_4 = NULL;
+	bool V_5 = false;
+	{
+		V_0 = (bool)0;
+		Transform_t3275118058 * L_0 = ___transform0;
+		int32_t L_1 = Transform_get_childCount_m881385315(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_0057;
+	}
+
+IL_0011:
+	{
+		Transform_t3275118058 * L_2 = ___transform0;
+		int32_t L_3 = V_2;
+		Transform_t3275118058 * L_4 = Transform_GetChild_m3838588184(L_2, L_3, /*hidden argument*/NULL);
+		V_3 = L_4;
+		Transform_t3275118058 * L_5 = V_3;
+		GameObject_t1756533147 * L_6 = Component_get_gameObject_m3105766835(L_5, /*hidden argument*/NULL);
+		ParticleSystem_t3394631041 * L_7 = GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(L_6, /*hidden argument*/GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var);
+		V_4 = L_7;
+		ParticleSystem_t3394631041 * L_8 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_9 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_8, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IteratorDelegate_t2419492168 * L_10 = ___func1;
+		ParticleSystem_t3394631041 * L_11 = V_4;
+		bool L_12 = IteratorDelegate_Invoke_m3389138368(L_10, L_11, /*hidden argument*/NULL);
+		V_0 = L_12;
+		bool L_13 = V_0;
+		if (!L_13)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		goto IL_005e;
+	}
+
+IL_0049:
+	{
+		Transform_t3275118058 * L_14 = V_3;
+		IteratorDelegate_t2419492168 * L_15 = ___func1;
+		ParticleSystem_IterateParticleSystemsRecursive_m3260878897(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+	}
+
+IL_0052:
+	{
+		int32_t L_16 = V_2;
+		V_2 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_0057:
+	{
+		int32_t L_17 = V_2;
+		int32_t L_18 = V_1;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_005e:
+	{
+		bool L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0066;
+	}
+
+IL_0066:
+	{
+		bool L_20 = V_5;
+		return L_20;
+	}
+}
+// System.Boolean UnityEngine.ParticleSystem::<Play>m__0(UnityEngine.ParticleSystem)
+extern "C"  bool ParticleSystem_U3CPlayU3Em__0_m4250446697 (Il2CppObject * __this /* static, unused */, ParticleSystem_t3394631041 * ___ps0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		ParticleSystem_t3394631041 * L_0 = ___ps0;
+		bool L_1 = ParticleSystem_Internal_Play_m2372735108(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.ParticleSystem/IteratorDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void IteratorDelegate__ctor_m3692393942 (IteratorDelegate_t2419492168 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Boolean UnityEngine.ParticleSystem/IteratorDelegate::Invoke(UnityEngine.ParticleSystem)
+extern "C"  bool IteratorDelegate_Invoke_m3389138368 (IteratorDelegate_t2419492168 * __this, ParticleSystem_t3394631041 * ___ps0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		IteratorDelegate_Invoke_m3389138368((IteratorDelegate_t2419492168 *)__this->get_prev_9(),___ps0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef bool (*FunctionPointerType) (Il2CppObject *, void* __this, ParticleSystem_t3394631041 * ___ps0, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___ps0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef bool (*FunctionPointerType) (void* __this, ParticleSystem_t3394631041 * ___ps0, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___ps0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef bool (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(___ps0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.ParticleSystem/IteratorDelegate::BeginInvoke(UnityEngine.ParticleSystem,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * IteratorDelegate_BeginInvoke_m1741046139 (IteratorDelegate_t2419492168 * __this, ParticleSystem_t3394631041 * ___ps0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___ps0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Boolean UnityEngine.ParticleSystem/IteratorDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  bool IteratorDelegate_EndInvoke_m121475984 (IteratorDelegate_t2419492168 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	Il2CppObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
+}
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
 extern "C"  bool Physics_Raycast_m2874007225 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  ___origin0, Vector3_t2243707580  ___direction1, float ___maxDistance2, int32_t ___layerMask3, const MethodInfo* method)
 {
@@ -19402,15 +19672,6 @@ extern "C"  void StateMachineBehaviour_OnStateMachineExit_m2213014568 (StateMach
 	{
 		return;
 	}
-}
-// UnityEngine.OperatingSystemFamily UnityEngine.SystemInfo::get_operatingSystemFamily()
-extern "C"  int32_t SystemInfo_get_operatingSystemFamily_m3467441443 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*SystemInfo_get_operatingSystemFamily_m3467441443_ftn) ();
-	static SystemInfo_get_operatingSystemFamily_m3467441443_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (SystemInfo_get_operatingSystemFamily_m3467441443_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::get_operatingSystemFamily()");
-	return _il2cpp_icall_func();
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

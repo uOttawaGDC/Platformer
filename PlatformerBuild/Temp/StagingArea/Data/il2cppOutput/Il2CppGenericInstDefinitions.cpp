@@ -1350,6 +1350,9 @@ extern const Il2CppGenericInst GenInst_ObjectPool_1_t4265859154_gp_0_0_0_0 = { 1
 extern const Il2CppType DefaultExecutionOrder_t2717914595_0_0_0;
 static const Il2CppType* GenInst_DefaultExecutionOrder_t2717914595_0_0_0_Types[] = { &DefaultExecutionOrder_t2717914595_0_0_0 };
 extern const Il2CppGenericInst GenInst_DefaultExecutionOrder_t2717914595_0_0_0 = { 1, GenInst_DefaultExecutionOrder_t2717914595_0_0_0_Types };
+extern const Il2CppType ParticleSystem_t3394631041_0_0_0;
+static const Il2CppType* GenInst_ParticleSystem_t3394631041_0_0_0_Types[] = { &ParticleSystem_t3394631041_0_0_0 };
+extern const Il2CppGenericInst GenInst_ParticleSystem_t3394631041_0_0_0 = { 1, GenInst_ParticleSystem_t3394631041_0_0_0_Types };
 extern const Il2CppType GUILayer_t3254902478_0_0_0;
 static const Il2CppType* GenInst_GUILayer_t3254902478_0_0_0_Types[] = { &GUILayer_t3254902478_0_0_0 };
 extern const Il2CppGenericInst GenInst_GUILayer_t3254902478_0_0_0 = { 1, GenInst_GUILayer_t3254902478_0_0_0_Types };
@@ -1466,7 +1469,7 @@ static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types };
 static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types[] = { &KeyValuePair_2_t38854645_0_0_0, &Il2CppObject_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[506] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[507] = 
 {
 	&GenInst_Il2CppObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -1928,6 +1931,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[506] =
 	&GenInst_List_1_t2000868992_0_0_0,
 	&GenInst_ObjectPool_1_t4265859154_gp_0_0_0_0,
 	&GenInst_DefaultExecutionOrder_t2717914595_0_0_0,
+	&GenInst_ParticleSystem_t3394631041_0_0_0,
 	&GenInst_GUILayer_t3254902478_0_0_0,
 	&GenInst_EventSystem_t3466835263_0_0_0,
 	&GenInst_AxisEventData_t1524870173_0_0_0,

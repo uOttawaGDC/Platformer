@@ -1,6 +1,7 @@
 <linker>
 <assembly fullname="Assembly-CSharp">
 <type fullname="PlayerController" preserve="all"/>
+<type fullname="snowballController" preserve="all"/>
 <type fullname="snowmanController" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">

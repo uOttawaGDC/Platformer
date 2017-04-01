@@ -8442,6 +8442,16 @@ extern "C" void Object_FindObjectOfType_m2330404063 ();
 extern "C" void Object_op_Equality_m3764089466 ();
 extern "C" void Object_op_Inequality_m2402264703 ();
 extern "C" void Object__cctor_m2991092887 ();
+extern "C" void ParticleSystem_Internal_Play_m2372735108 ();
+extern "C" void ParticleSystem_Play_m4171585816 ();
+extern "C" void ParticleSystem_Play_m1705837075 ();
+extern "C" void ParticleSystem_IterateParticleSystems_m1240416587 ();
+extern "C" void ParticleSystem_IterateParticleSystemsRecursive_m3260878897 ();
+extern "C" void ParticleSystem_U3CPlayU3Em__0_m4250446697 ();
+extern "C" void IteratorDelegate__ctor_m3692393942 ();
+extern "C" void IteratorDelegate_Invoke_m3389138368 ();
+extern "C" void IteratorDelegate_BeginInvoke_m1741046139 ();
+extern "C" void IteratorDelegate_EndInvoke_m121475984 ();
 extern "C" void Physics_Raycast_m2874007225 ();
 extern "C" void Physics_Raycast_m89212106 ();
 extern "C" void Physics_Raycast_m2667915561 ();
@@ -10422,13 +10432,17 @@ extern "C" void PlayerController_OnTriggerEnter2D_m429568576 ();
 extern "C" void PlayerController_change_m914321706 ();
 extern "C" void PlayerController_getJumpForce_m1721981899 ();
 extern "C" void PlayerController_Update_m4228472513 ();
+extern "C" void snowballController__ctor_m1679412749 ();
+extern "C" void snowballController_Start_m1961862269 ();
+extern "C" void snowballController_OnTriggerEnter2D_m4281077509 ();
+extern "C" void snowballController_Update_m798350900 ();
 extern "C" void snowmanController__ctor_m1474986808 ();
 extern "C" void snowmanController_Start_m1552144600 ();
 extern "C" void snowmanController_OnTriggerEnter2D_m41094768 ();
 extern "C" void snowmanController_OnTriggerExit2D_m3794168146 ();
 extern "C" void snowmanController_attackPlayer_m419289903 ();
 extern "C" void snowmanController_Update_m257385109 ();
-extern const Il2CppMethodPointer g_MethodPointers[10417] = 
+extern const Il2CppMethodPointer g_MethodPointers[10431] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -18861,6 +18875,16 @@ extern const Il2CppMethodPointer g_MethodPointers[10417] =
 	Object_op_Equality_m3764089466,
 	Object_op_Inequality_m2402264703,
 	Object__cctor_m2991092887,
+	ParticleSystem_Internal_Play_m2372735108,
+	ParticleSystem_Play_m4171585816,
+	ParticleSystem_Play_m1705837075,
+	ParticleSystem_IterateParticleSystems_m1240416587,
+	ParticleSystem_IterateParticleSystemsRecursive_m3260878897,
+	ParticleSystem_U3CPlayU3Em__0_m4250446697,
+	IteratorDelegate__ctor_m3692393942,
+	IteratorDelegate_Invoke_m3389138368,
+	IteratorDelegate_BeginInvoke_m1741046139,
+	IteratorDelegate_EndInvoke_m121475984,
 	Physics_Raycast_m2874007225,
 	Physics_Raycast_m89212106,
 	Physics_Raycast_m2667915561,
@@ -20841,6 +20865,10 @@ extern const Il2CppMethodPointer g_MethodPointers[10417] =
 	PlayerController_change_m914321706,
 	PlayerController_getJumpForce_m1721981899,
 	PlayerController_Update_m4228472513,
+	snowballController__ctor_m1679412749,
+	snowballController_Start_m1961862269,
+	snowballController_OnTriggerEnter2D_m4281077509,
+	snowballController_Update_m798350900,
 	snowmanController__ctor_m1474986808,
 	snowmanController_Start_m1552144600,
 	snowmanController_OnTriggerEnter2D_m41094768,

@@ -23,10 +23,14 @@ struct Il2CppObject;
 struct SpriteRenderer_t1209076198;
 // UnityEngine.Collider2D
 struct Collider2D_t646061738;
-// snowmanController
-struct snowmanController_t2349390225;
+// snowballController
+struct snowballController_t2911264530;
 // UnityEngine.GameObject
 struct GameObject_t1756533147;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_t3394631041;
+// snowmanController
+struct snowmanController_t2349390225;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -61,9 +65,13 @@ struct GameObject_t1756533147;
 #include "UnityEngine_UnityEngine_Vector32243707580.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "AssemblyU2DCSharp_snowballController2911264530.h"
+#include "AssemblyU2DCSharp_snowballController2911264530MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041.h"
 #include "AssemblyU2DCSharp_snowmanController2349390225.h"
 #include "AssemblyU2DCSharp_snowmanController2349390225MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
 #include "UnityEngine_UnityEngine_Time31991979MethodDeclarations.h"
 
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
@@ -72,17 +80,19 @@ extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gs
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()
 #define Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, method) ((  Rigidbody2D_t502193897 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisIl2CppObject_m2812611596(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m2650145732(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()
-#define GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(__this, method) ((  SpriteRenderer_t1209076198 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+#define GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(__this, method) ((  SpriteRenderer_t1209076198 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3829784634_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Vector3_t2243707580  p1, Quaternion_t4030073918  p2, const MethodInfo* method);
 #define Object_Instantiate_TisIl2CppObject_m3829784634(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
 // !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
 #define Object_Instantiate_TisGameObject_t1756533147_m3064851704(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.ParticleSystem>()
+#define GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(__this, method) ((  ParticleSystem_t3394631041 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Rigidbody2D>()
-#define GameObject_GetComponent_TisRigidbody2D_t502193897_m812242143(__this, method) ((  Rigidbody2D_t502193897 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+#define GameObject_GetComponent_TisRigidbody2D_t502193897_m812242143(__this, method) ((  Rigidbody2D_t502193897 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -607,6 +617,75 @@ IL_026c:
 	}
 
 IL_0281:
+	{
+		return;
+	}
+}
+// System.Void snowballController::.ctor()
+extern "C"  void snowballController__ctor_m1679412749 (snowballController_t2911264530 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void snowballController::Start()
+extern "C"  void snowballController_Start_m1961862269 (snowballController_t2911264530 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_deathCount_3(1);
+		return;
+	}
+}
+// System.Void snowballController::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var;
+extern const uint32_t snowballController_OnTriggerEnter2D_m4281077509_MetadataUsageId;
+extern "C"  void snowballController_OnTriggerEnter2D_m4281077509 (snowballController_t2911264530 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (snowballController_OnTriggerEnter2D_m4281077509_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		int32_t L_0 = __this->get_deathCount_3();
+		if (L_0)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_1 = __this->get_explosion_2();
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_3 = Transform_get_position_m1104419803(L_2, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_5 = Transform_get_rotation_m1033555130(L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_6 = Object_Instantiate_TisGameObject_t1756533147_m3064851704(NULL /*static, unused*/, L_1, L_3, L_5, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var);
+		V_0 = L_6;
+		GameObject_t1756533147 * L_7 = V_0;
+		ParticleSystem_t3394631041 * L_8 = GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(L_7, /*hidden argument*/GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var);
+		ParticleSystem_Play_m4171585816(L_8, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_9 = V_0;
+		Object_Destroy_m4279412553(NULL /*static, unused*/, L_9, (1.0f), /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_10 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_004e:
+	{
+		int32_t L_11 = __this->get_deathCount_3();
+		__this->set_deathCount_3(((int32_t)((int32_t)L_11-(int32_t)1)));
+		return;
+	}
+}
+// System.Void snowballController::Update()
+extern "C"  void snowballController_Update_m798350900 (snowballController_t2911264530 * __this, const MethodInfo* method)
+{
 	{
 		return;
 	}
