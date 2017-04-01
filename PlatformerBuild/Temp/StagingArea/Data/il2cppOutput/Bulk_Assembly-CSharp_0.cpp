@@ -33,6 +33,8 @@ struct GameObject_t1756533147;
 struct MonkeyMovement_t2858979508;
 // PlayerController
 struct PlayerController_t4148409433;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t1209076198;
 // UnityEngine.Collider2D
 struct Collider2D_t646061738;
 // Vacuum
@@ -84,9 +86,13 @@ struct ZoneTwoController_t2084728272;
 #include "AssemblyU2DCSharp_MonkeyMovement2858979508MethodDeclarations.h"
 #include "AssemblyU2DCSharp_PlayerController4148409433.h"
 #include "AssemblyU2DCSharp_PlayerController4148409433MethodDeclarations.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer1209076198.h"
+#include "mscorlib_System_Int322071877448.h"
 #include "UnityEngine_UnityEngine_Collider2D646061738.h"
-#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Renderer257310565MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117.h"
 #include "AssemblyU2DCSharp_Vacuum2524352827.h"
 #include "AssemblyU2DCSharp_Vacuum2524352827MethodDeclarations.h"
@@ -107,6 +113,8 @@ extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gs
 #define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()
 #define Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, method) ((  Rigidbody2D_t502193897 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()
+#define GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(__this, method) ((  SpriteRenderer_t1209076198 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<Bird>()
 #define Component_GetComponent_TisBird_t1163357383_m2400807736(__this, method) ((  Bird_t1163357383 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<LadderController>()
@@ -510,7 +518,14 @@ extern "C"  void PlayerController__ctor_m3280132936 (PlayerController_t414840943
 	}
 }
 // System.Void PlayerController::Start()
+extern Il2CppClass* SpriteRendererU5BU5D_t1098056643_il2cpp_TypeInfo_var;
 extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1674477079;
+extern Il2CppCodeGenString* _stringLiteral3636626867;
+extern Il2CppCodeGenString* _stringLiteral1038574253;
+extern Il2CppCodeGenString* _stringLiteral184951150;
+extern Il2CppCodeGenString* _stringLiteral291593216;
 extern const uint32_t PlayerController_Start_m3606284888_MetadataUsageId;
 extern "C"  void PlayerController_Start_m3606284888 (PlayerController_t4148409433 * __this, const MethodInfo* method)
 {
@@ -521,9 +536,33 @@ extern "C"  void PlayerController_Start_m3606284888 (PlayerController_t414840943
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->set_canJump_4((bool)0);
+		__this->set_canJump_5((bool)0);
 		Rigidbody2D_t502193897 * L_0 = Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var);
-		__this->set_rb2d_5(L_0);
+		__this->set_rb2d_4(L_0);
+		__this->set_animalSprites_8(((SpriteRendererU5BU5D_t1098056643*)SZArrayNew(SpriteRendererU5BU5D_t1098056643_il2cpp_TypeInfo_var, (uint32_t)4)));
+		SpriteRendererU5BU5D_t1098056643* L_1 = __this->get_animalSprites_8();
+		GameObject_t1756533147 * L_2 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1674477079, /*hidden argument*/NULL);
+		SpriteRenderer_t1209076198 * L_3 = GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(L_2, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631_MethodInfo_var);
+		ArrayElementTypeCheck (L_1, L_3);
+		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (SpriteRenderer_t1209076198 *)L_3);
+		SpriteRendererU5BU5D_t1098056643* L_4 = __this->get_animalSprites_8();
+		GameObject_t1756533147 * L_5 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral3636626867, /*hidden argument*/NULL);
+		SpriteRenderer_t1209076198 * L_6 = GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(L_5, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631_MethodInfo_var);
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (SpriteRenderer_t1209076198 *)L_6);
+		SpriteRendererU5BU5D_t1098056643* L_7 = __this->get_animalSprites_8();
+		GameObject_t1756533147 * L_8 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1038574253, /*hidden argument*/NULL);
+		SpriteRenderer_t1209076198 * L_9 = GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(L_8, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631_MethodInfo_var);
+		ArrayElementTypeCheck (L_7, L_9);
+		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (SpriteRenderer_t1209076198 *)L_9);
+		SpriteRendererU5BU5D_t1098056643* L_10 = __this->get_animalSprites_8();
+		GameObject_t1756533147 * L_11 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral184951150, /*hidden argument*/NULL);
+		SpriteRenderer_t1209076198 * L_12 = GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(L_11, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631_MethodInfo_var);
+		ArrayElementTypeCheck (L_10, L_12);
+		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (SpriteRenderer_t1209076198 *)L_12);
+		__this->set_animalNumber_6(3);
+		__this->set_animalName_7(_stringLiteral291593216);
+		PlayerController_change_m914321706(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -551,7 +590,7 @@ extern "C"  void PlayerController_OnTriggerEnter2D_m429568576 (PlayerController_
 		}
 	}
 	{
-		__this->set_canJump_4((bool)1);
+		__this->set_canJump_5((bool)1);
 	}
 
 IL_001c:
@@ -563,10 +602,65 @@ IL_001c:
 		return;
 	}
 }
-// System.Void PlayerController::OnTriggerExit2D(UnityEngine.Collider2D)
-extern "C"  void PlayerController_OnTriggerExit2D_m1507677490 (PlayerController_t4148409433 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+// System.Void PlayerController::change()
+extern "C"  void PlayerController_change_m914321706 (PlayerController_t4148409433 * __this, const MethodInfo* method)
 {
+	int32_t V_0 = 0;
 	{
+		int32_t L_0 = __this->get_animalNumber_6();
+		__this->set_animalNumber_6(((int32_t)((int32_t)((int32_t)((int32_t)L_0+(int32_t)1))%(int32_t)4)));
+		V_0 = 0;
+		goto IL_0048;
+	}
+
+IL_0017:
+	{
+		int32_t L_1 = V_0;
+		int32_t L_2 = __this->get_animalNumber_6();
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		SpriteRendererU5BU5D_t1098056643* L_3 = __this->get_animalSprites_8();
+		int32_t L_4 = V_0;
+		int32_t L_5 = L_4;
+		SpriteRenderer_t1209076198 * L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		Renderer_set_enabled_m142717579(L_6, (bool)1, /*hidden argument*/NULL);
+		goto IL_0044;
+	}
+
+IL_0036:
+	{
+		SpriteRendererU5BU5D_t1098056643* L_7 = __this->get_animalSprites_8();
+		int32_t L_8 = V_0;
+		int32_t L_9 = L_8;
+		SpriteRenderer_t1209076198 * L_10 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		Renderer_set_enabled_m142717579(L_10, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0048:
+	{
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_12) < ((int32_t)4)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		SpriteRendererU5BU5D_t1098056643* L_13 = __this->get_animalSprites_8();
+		int32_t L_14 = __this->get_animalNumber_6();
+		int32_t L_15 = L_14;
+		SpriteRenderer_t1209076198 * L_16 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		String_t* L_17 = Object_get_name_m2079638459(L_16, /*hidden argument*/NULL);
+		__this->set_animalName_7(L_17);
 		return;
 	}
 }
@@ -631,7 +725,7 @@ extern "C"  void PlayerController_Update_m4228472513 (PlayerController_t41484094
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_13 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_13 = __this->get_rb2d_4();
 		Rigidbody2D_set_gravityScale_m1426625078(L_13, (4.0f), /*hidden argument*/NULL);
 		goto IL_00b0;
 	}
@@ -648,16 +742,16 @@ IL_0066:
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_17 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_17 = __this->get_rb2d_4();
 		Rigidbody2D_set_gravityScale_m1426625078(L_17, (0.0f), /*hidden argument*/NULL);
 		goto IL_00b0;
 	}
 
 IL_0090:
 	{
-		Rigidbody2D_t502193897 * L_18 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_18 = __this->get_rb2d_4();
 		Rigidbody2D_set_drag_m1191678372(L_18, (8.0f), /*hidden argument*/NULL);
-		Rigidbody2D_t502193897 * L_19 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_19 = __this->get_rb2d_4();
 		Rigidbody2D_set_gravityScale_m1426625078(L_19, (15.0f), /*hidden argument*/NULL);
 	}
 
@@ -668,9 +762,9 @@ IL_00b0:
 
 IL_00b5:
 	{
-		Rigidbody2D_t502193897 * L_20 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_20 = __this->get_rb2d_4();
 		Rigidbody2D_set_drag_m1191678372(L_20, (8.0f), /*hidden argument*/NULL);
-		Rigidbody2D_t502193897 * L_21 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_21 = __this->get_rb2d_4();
 		Rigidbody2D_set_gravityScale_m1426625078(L_21, (15.0f), /*hidden argument*/NULL);
 	}
 
@@ -684,7 +778,7 @@ IL_00d5:
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_23 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_23 = __this->get_rb2d_4();
 		float L_24 = __this->get_moveForce_3();
 		Vector2_t2243707579  L_25;
 		memset(&L_25, 0, sizeof(L_25));
@@ -703,7 +797,7 @@ IL_010a:
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_27 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_27 = __this->get_rb2d_4();
 		float L_28 = __this->get_moveForce_3();
 		Vector2_t2243707579  L_29;
 		memset(&L_29, 0, sizeof(L_29));
@@ -752,7 +846,7 @@ IL_0169:
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_39 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_39 = __this->get_rb2d_4();
 		float L_40 = __this->get_moveForce_3();
 		Vector2_t2243707579  L_41;
 		memset(&L_41, 0, sizeof(L_41));
@@ -771,7 +865,7 @@ IL_019e:
 		}
 	}
 	{
-		Rigidbody2D_t502193897 * L_43 = __this->get_rb2d_5();
+		Rigidbody2D_t502193897 * L_43 = __this->get_rb2d_4();
 		float L_44 = __this->get_moveForce_3();
 		Vector2_t2243707579  L_45;
 		memset(&L_45, 0, sizeof(L_45));
@@ -789,16 +883,16 @@ IL_01ce:
 		}
 	}
 	{
-		bool L_47 = __this->get_canJump_4();
+		bool L_47 = __this->get_canJump_5();
 		if (!L_47)
 		{
 			goto IL_021a;
 		}
 	}
 	{
-		__this->set_canJump_4((bool)0);
-		Rigidbody2D_t502193897 * L_48 = __this->get_rb2d_5();
-		Rigidbody2D_t502193897 * L_49 = __this->get_rb2d_5();
+		__this->set_canJump_5((bool)0);
+		Rigidbody2D_t502193897 * L_48 = __this->get_rb2d_4();
+		Rigidbody2D_t502193897 * L_49 = __this->get_rb2d_4();
 		Vector2_t2243707579  L_50 = Rigidbody2D_get_velocity_m3310151195(L_49, /*hidden argument*/NULL);
 		float L_51 = __this->get_jumpForce_2();
 		Vector2_t2243707579  L_52;
@@ -814,11 +908,14 @@ IL_021a:
 		bool L_54 = Input_GetKeyDown_m1749539436(NULL /*static, unused*/, _stringLiteral372029375, /*hidden argument*/NULL);
 		if (!L_54)
 		{
-			goto IL_0229;
+			goto IL_022f;
 		}
 	}
+	{
+		PlayerController_change_m914321706(__this, /*hidden argument*/NULL);
+	}
 
-IL_0229:
+IL_022f:
 	{
 		return;
 	}

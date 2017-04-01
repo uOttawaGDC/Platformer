@@ -16141,6 +16141,15 @@ extern "C"  void UpdatedEventHandler_EndInvoke_m224684362 (UpdatedEventHandler_t
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
+// System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
+extern "C"  void Renderer_set_enabled_m142717579 (Renderer_t257310565 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*Renderer_set_enabled_m142717579_ftn) (Renderer_t257310565 *, bool);
+	static Renderer_set_enabled_m142717579_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Renderer_set_enabled_m142717579_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Renderer::set_enabled(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Int32 UnityEngine.Renderer::get_sortingLayerID()
 extern "C"  int32_t Renderer_get_sortingLayerID_m2403577271 (Renderer_t257310565 * __this, const MethodInfo* method)
 {

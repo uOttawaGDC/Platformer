@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{6CDD78E8-E7CE-4690-E74A-92E5ACDD393F}") = "PlatformerBuild", "Assembly-CSharp.csproj", "{5D13887B-AB3C-8DA6-92F2-AA39878C6E52}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformerBuild", "Assembly-CSharp.csproj", "{5D13887B-AB3C-8DA6-92F2-AA39878C6E52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

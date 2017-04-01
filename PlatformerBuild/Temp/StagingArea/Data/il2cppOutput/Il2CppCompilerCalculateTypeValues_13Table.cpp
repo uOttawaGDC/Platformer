@@ -937,7 +937,11 @@ extern const int32_t g_FieldOffsetTable1351[11] =
 	Internal_DrawWithTextSelectionArguments_t1327795077::get_offset_of_hasKeyboardFocus_9() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Internal_DrawWithTextSelectionArguments_t1327795077::get_offset_of_drawSelectionAsComposition_10() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1352 = { sizeof (WebRequestUtils_t4100941042), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1352 = { sizeof (WebRequestUtils_t4100941042), -1, sizeof(WebRequestUtils_t4100941042_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1352[1] = 
+{
+	WebRequestUtils_t4100941042_StaticFields::get_offset_of_domainRegex_0(),
+};
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1353 = { sizeof (RemoteSettings_t392466225), -1, sizeof(RemoteSettings_t392466225_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1353[1] = 
 {

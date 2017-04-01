@@ -883,6 +883,12 @@ extern const Il2CppGenericInst GenInst_List_1_t1440998580_0_0_0 = { 1, GenInst_L
 extern const Il2CppType List_1_t573379950_0_0_0;
 static const Il2CppType* GenInst_List_1_t573379950_0_0_0_Types[] = { &List_1_t573379950_0_0_0 };
 extern const Il2CppGenericInst GenInst_List_1_t573379950_0_0_0 = { 1, GenInst_List_1_t573379950_0_0_0_Types };
+extern const Il2CppType SpriteRenderer_t1209076198_0_0_0;
+static const Il2CppType* GenInst_SpriteRenderer_t1209076198_0_0_0_Types[] = { &SpriteRenderer_t1209076198_0_0_0 };
+extern const Il2CppGenericInst GenInst_SpriteRenderer_t1209076198_0_0_0 = { 1, GenInst_SpriteRenderer_t1209076198_0_0_0_Types };
+extern const Il2CppType Renderer_t257310565_0_0_0;
+static const Il2CppType* GenInst_Renderer_t257310565_0_0_0_Types[] = { &Renderer_t257310565_0_0_0 };
+extern const Il2CppGenericInst GenInst_Renderer_t257310565_0_0_0 = { 1, GenInst_Renderer_t257310565_0_0_0_Types };
 extern const Il2CppType IEnumerable_1_t4048664256_gp_0_0_0_0;
 static const Il2CppType* GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0_Types[] = { &IEnumerable_1_t4048664256_gp_0_0_0_0 };
 extern const Il2CppGenericInst GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0 = { 1, GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0_Types };
@@ -1353,9 +1359,6 @@ extern const Il2CppGenericInst GenInst_EventSystem_t3466835263_0_0_0 = { 1, GenI
 extern const Il2CppType AxisEventData_t1524870173_0_0_0;
 static const Il2CppType* GenInst_AxisEventData_t1524870173_0_0_0_Types[] = { &AxisEventData_t1524870173_0_0_0 };
 extern const Il2CppGenericInst GenInst_AxisEventData_t1524870173_0_0_0 = { 1, GenInst_AxisEventData_t1524870173_0_0_0_Types };
-extern const Il2CppType SpriteRenderer_t1209076198_0_0_0;
-static const Il2CppType* GenInst_SpriteRenderer_t1209076198_0_0_0_Types[] = { &SpriteRenderer_t1209076198_0_0_0 };
-extern const Il2CppGenericInst GenInst_SpriteRenderer_t1209076198_0_0_0 = { 1, GenInst_SpriteRenderer_t1209076198_0_0_0_Types };
 extern const Il2CppType Image_t2042527209_0_0_0;
 static const Il2CppType* GenInst_Image_t2042527209_0_0_0_Types[] = { &Image_t2042527209_0_0_0 };
 extern const Il2CppGenericInst GenInst_Image_t2042527209_0_0_0 = { 1, GenInst_Image_t2042527209_0_0_0_Types };
@@ -1469,7 +1472,7 @@ static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types };
 static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types[] = { &KeyValuePair_2_t38854645_0_0_0, &Il2CppObject_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[507] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[508] = 
 {
 	&GenInst_Il2CppObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -1774,6 +1777,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[507] =
 	&GenInst_List_1_t1612828713_0_0_0,
 	&GenInst_List_1_t1440998580_0_0_0,
 	&GenInst_List_1_t573379950_0_0_0,
+	&GenInst_SpriteRenderer_t1209076198_0_0_0,
+	&GenInst_Renderer_t257310565_0_0_0,
 	&GenInst_IEnumerable_1_t4048664256_gp_0_0_0_0,
 	&GenInst_Array_InternalArray__IEnumerable_GetEnumerator_m2949663298_gp_0_0_0_0,
 	&GenInst_Array_Sort_m1730553742_gp_0_0_0_0_Array_Sort_m1730553742_gp_0_0_0_0,
@@ -1932,7 +1937,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[507] =
 	&GenInst_GUILayer_t3254902478_0_0_0,
 	&GenInst_EventSystem_t3466835263_0_0_0,
 	&GenInst_AxisEventData_t1524870173_0_0_0,
-	&GenInst_SpriteRenderer_t1209076198_0_0_0,
 	&GenInst_Image_t2042527209_0_0_0,
 	&GenInst_Button_t2872111280_0_0_0,
 	&GenInst_RawImage_t2749640213_0_0_0,

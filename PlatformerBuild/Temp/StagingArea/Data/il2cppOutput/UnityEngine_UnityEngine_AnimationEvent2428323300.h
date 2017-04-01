@@ -16,13 +16,13 @@ struct String_t;
 struct Object_t1021602117;
 // UnityEngine.AnimationState
 struct AnimationState_t1303741697;
-struct Object_t1021602117_marshaled_pinvoke;
 struct Object_t1021602117_marshaled_com;
 
 #include "mscorlib_System_Object2689449295.h"
 #include "UnityEngine_UnityEngine_AnimationEventSource3560017945.h"
 #include "UnityEngine_UnityEngine_AnimatorStateInfo2577870592.h"
 #include "UnityEngine_UnityEngine_AnimatorClipInfo3905751349.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -160,7 +160,7 @@ struct AnimationEvent_t2428323300_marshaled_pinvoke
 	float ___m_Time_0;
 	char* ___m_FunctionName_1;
 	char* ___m_StringParameter_2;
-	Object_t1021602117_marshaled_pinvoke* ___m_ObjectReferenceParameter_3;
+	Object_t1021602117_marshaled_pinvoke ___m_ObjectReferenceParameter_3;
 	float ___m_FloatParameter_4;
 	int32_t ___m_IntParameter_5;
 	int32_t ___m_MessageOptions_6;

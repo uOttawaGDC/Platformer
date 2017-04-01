@@ -148,6 +148,7 @@ UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
+UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
@@ -332,6 +333,7 @@ UnityEngine.RectTransformUtility::INTERNAL_CALL_PixelAdjustPoint
 UnityEngine.RectTransformUtility::INTERNAL_CALL_PixelAdjustRect
 UnityEngine.Renderer::get_sortingLayerID
 UnityEngine.Renderer::get_sortingOrder
+UnityEngine.Renderer::set_enabled
 UnityEngine.RenderTexture::Internal_GetHeight
 UnityEngine.RenderTexture::Internal_GetWidth
 UnityEngine.Resources::GetBuiltinResource

@@ -236,12 +236,15 @@ extern const int32_t g_FieldOffsetTable1636[1] =
 	woodTile_t4287184473::get_offset_of_isDestroyable_2(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1637 = { sizeof (PlayerController_t4148409433), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1637[4] = 
+extern const int32_t g_FieldOffsetTable1637[7] = 
 {
 	PlayerController_t4148409433::get_offset_of_jumpForce_2(),
 	PlayerController_t4148409433::get_offset_of_moveForce_3(),
-	PlayerController_t4148409433::get_offset_of_canJump_4(),
-	PlayerController_t4148409433::get_offset_of_rb2d_5(),
+	PlayerController_t4148409433::get_offset_of_rb2d_4(),
+	PlayerController_t4148409433::get_offset_of_canJump_5(),
+	PlayerController_t4148409433::get_offset_of_animalNumber_6(),
+	PlayerController_t4148409433::get_offset_of_animalName_7(),
+	PlayerController_t4148409433::get_offset_of_animalSprites_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1638 = { sizeof (MonkeyMovement_t2858979508), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1638[3] = 

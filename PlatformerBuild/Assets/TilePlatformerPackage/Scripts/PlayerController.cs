@@ -7,14 +7,26 @@ public class PlayerController : MonoBehaviour {
 	public float jumpForce; // how strong the player can jump
 	public float moveForce; // how fast player moves
 
-	private bool canJump;
-
+	// private properties 
 	private Rigidbody2D rb2d; // ref to players rigid body
+	private bool canJump;
+	private int animalNumber;
+	private string animalName;
+	private SpriteRenderer[] animalSprites;
 
 	// Use this for initialization
-	void Start () {
+	void Start () {		
 		canJump = false;
 		rb2d = GetComponent<Rigidbody2D> ();
+
+		animalSprites = new SpriteRenderer[4];
+		animalSprites [0] = GameObject.Find ("Player/monkey").GetComponent<SpriteRenderer>();
+		animalSprites [1] = GameObject.Find ("Player/beaver").GetComponent<SpriteRenderer>();
+		animalSprites [2] = GameObject.Find ("Player/bird").GetComponent<SpriteRenderer>();
+		animalSprites [3] = GameObject.Find ("Player/bear").GetComponent<SpriteRenderer>();
+		animalNumber = 3; // initial animal will be 0 = monkey
+		animalName = "bear";
+		change ();
 	}
 		
 	public void OnTriggerEnter2D(Collider2D other){
@@ -28,8 +40,21 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	public void OnTriggerExit2D(Collider2D other){
-		
+	//
+	//
+	//
+	public void change(){
+		animalNumber = (animalNumber + 1) % 4;
+		for(int i=0; i<4; i++){
+			if (i == animalNumber) {
+				animalSprites [i].enabled = true;
+
+			} else {
+				animalSprites [i].enabled = false;
+
+			}
+		}
+		animalName = animalSprites [animalNumber].name;
 	}
 
 	// Update is called once per frame
@@ -95,7 +120,7 @@ public class PlayerController : MonoBehaviour {
 		// change character
 		//
 		if(Input.GetKeyDown("c")){
-
+			change ();
 		}
 	}
 }

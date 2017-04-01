@@ -55,6 +55,10 @@ struct Font_t4239498691;
 struct CanvasGroup_t3296560743;
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t1209076198;
+// UnityEngine.Renderer
+struct Renderer_t257310565;
 
 #include "mscorlib_System_Array3829468939.h"
 #include "UnityEngine_UnityEngine_Object1021602117.h"
@@ -94,6 +98,8 @@ struct RectTransform_t3349966182;
 #include "UnityEngine_UnityEngine_Font4239498691.h"
 #include "UnityEngine_UnityEngine_CanvasGroup3296560743.h"
 #include "UnityEngine_UnityEngine_RectTransform3349966182.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer1209076198.h"
+#include "UnityEngine_UnityEngine_Renderer257310565.h"
 
 #pragma once
 // UnityEngine.Object[]
@@ -1432,6 +1438,80 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RectTransform_t3349966182 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.SpriteRenderer[]
+struct SpriteRendererU5BU5D_t1098056643  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) SpriteRenderer_t1209076198 * m_Items[1];
+
+public:
+	inline SpriteRenderer_t1209076198 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SpriteRenderer_t1209076198 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SpriteRenderer_t1209076198 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline SpriteRenderer_t1209076198 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SpriteRenderer_t1209076198 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SpriteRenderer_t1209076198 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Renderer[]
+struct RendererU5BU5D_t2810717544  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Renderer_t257310565 * m_Items[1];
+
+public:
+	inline Renderer_t257310565 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Renderer_t257310565 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Renderer_t257310565 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Renderer_t257310565 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Renderer_t257310565 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Renderer_t257310565 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

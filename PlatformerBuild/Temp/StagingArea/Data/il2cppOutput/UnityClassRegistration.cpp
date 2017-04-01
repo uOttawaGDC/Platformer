@@ -293,77 +293,77 @@ RegisterBuiltinTypes();
 	RegisterClass<UI::CanvasRenderer>();
 	//28. Collider2D
 	RegisterClass<Collider2D>();
-	//29. PreloadData
-	RegisterClass<PreloadData>();
-	//30. Cubemap
-	RegisterClass<Cubemap>();
-	//31. Texture3D
-	RegisterClass<Texture3D>();
-	//32. Texture2DArray
-	RegisterClass<Texture2DArray>();
-	//33. TimeManager
-	RegisterClass<TimeManager>();
-	//34. GlobalGameManager
-	RegisterClass<GlobalGameManager>();
-	//35. GameManager
-	RegisterClass<GameManager>();
-	//36. AudioManager
-	RegisterClass<AudioManager>();
-	//37. InputManager
-	RegisterClass<InputManager>();
-	//38. Physics2DSettings
-	RegisterClass<Physics2DSettings>();
-	//39. GraphicsSettings
-	RegisterClass<GraphicsSettings>();
-	//40. QualitySettings
-	RegisterClass<QualitySettings>();
-	//41. TextAsset
-	RegisterClass<TextAsset>();
-	//42. PhysicsManager
-	RegisterClass<PhysicsManager>();
-	//43. TagManager
-	RegisterClass<TagManager>();
-	//44. ScriptMapper
-	RegisterClass<ScriptMapper>();
-	//45. DelayedCallManager
-	RegisterClass<DelayedCallManager>();
-	//46. MonoScript
-	RegisterClass<MonoScript>();
-	//47. MonoManager
-	RegisterClass<MonoManager>();
-	//48. PlayerSettings
-	RegisterClass<PlayerSettings>();
-	//49. BuildSettings
-	RegisterClass<BuildSettings>();
-	//50. ResourceManager
-	RegisterClass<ResourceManager>();
-	//51. RuntimeInitializeOnLoadManager
-	RegisterClass<RuntimeInitializeOnLoadManager>();
-	//52. CloudWebServicesManager
-	RegisterClass<CloudWebServicesManager>();
-	//53. UnityConnectSettings
-	RegisterClass<UnityConnectSettings>();
-	//54. LevelGameManager
-	RegisterClass<LevelGameManager>();
-	//55. MeshRenderer
-	RegisterClass<MeshRenderer>();
-	//56. MeshFilter
-	RegisterClass<MeshFilter>();
-	//57. BoxCollider2D
-	RegisterClass<BoxCollider2D>();
-	//58. MeshCollider
-	RegisterClass<MeshCollider>();
-	//59. AudioListener
-	RegisterClass<AudioListener>();
-	//60. AudioBehaviour
-	RegisterClass<AudioBehaviour>();
-	//61. RenderSettings
-	RegisterClass<RenderSettings>();
-	//62. FlareLayer
-	RegisterClass<FlareLayer>();
-	//63. LightmapSettings
-	RegisterClass<LightmapSettings>();
-	//64. SpriteRenderer
+	//29. SpriteRenderer
 	RegisterClass<SpriteRenderer>();
+	//30. PreloadData
+	RegisterClass<PreloadData>();
+	//31. Cubemap
+	RegisterClass<Cubemap>();
+	//32. Texture3D
+	RegisterClass<Texture3D>();
+	//33. Texture2DArray
+	RegisterClass<Texture2DArray>();
+	//34. TimeManager
+	RegisterClass<TimeManager>();
+	//35. GlobalGameManager
+	RegisterClass<GlobalGameManager>();
+	//36. GameManager
+	RegisterClass<GameManager>();
+	//37. AudioManager
+	RegisterClass<AudioManager>();
+	//38. InputManager
+	RegisterClass<InputManager>();
+	//39. Physics2DSettings
+	RegisterClass<Physics2DSettings>();
+	//40. GraphicsSettings
+	RegisterClass<GraphicsSettings>();
+	//41. QualitySettings
+	RegisterClass<QualitySettings>();
+	//42. TextAsset
+	RegisterClass<TextAsset>();
+	//43. PhysicsManager
+	RegisterClass<PhysicsManager>();
+	//44. TagManager
+	RegisterClass<TagManager>();
+	//45. ScriptMapper
+	RegisterClass<ScriptMapper>();
+	//46. DelayedCallManager
+	RegisterClass<DelayedCallManager>();
+	//47. MonoScript
+	RegisterClass<MonoScript>();
+	//48. MonoManager
+	RegisterClass<MonoManager>();
+	//49. PlayerSettings
+	RegisterClass<PlayerSettings>();
+	//50. BuildSettings
+	RegisterClass<BuildSettings>();
+	//51. ResourceManager
+	RegisterClass<ResourceManager>();
+	//52. RuntimeInitializeOnLoadManager
+	RegisterClass<RuntimeInitializeOnLoadManager>();
+	//53. CloudWebServicesManager
+	RegisterClass<CloudWebServicesManager>();
+	//54. UnityConnectSettings
+	RegisterClass<UnityConnectSettings>();
+	//55. LevelGameManager
+	RegisterClass<LevelGameManager>();
+	//56. MeshRenderer
+	RegisterClass<MeshRenderer>();
+	//57. MeshFilter
+	RegisterClass<MeshFilter>();
+	//58. BoxCollider2D
+	RegisterClass<BoxCollider2D>();
+	//59. MeshCollider
+	RegisterClass<MeshCollider>();
+	//60. AudioListener
+	RegisterClass<AudioListener>();
+	//61. AudioBehaviour
+	RegisterClass<AudioBehaviour>();
+	//62. RenderSettings
+	RegisterClass<RenderSettings>();
+	//63. FlareLayer
+	RegisterClass<FlareLayer>();
+	//64. LightmapSettings
+	RegisterClass<LightmapSettings>();
 
 }

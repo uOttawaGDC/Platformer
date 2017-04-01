@@ -7941,6 +7941,7 @@ extern "C" void GameObject_SendMessage_m71956653 ();
 extern "C" void GameObject_Internal_AddComponentWithType_m214735204 ();
 extern "C" void GameObject_AddComponent_m3757565614 ();
 extern "C" void GameObject_Internal_CreateGameObject_m3428198595 ();
+extern "C" void GameObject_Find_m836511350 ();
 extern "C" void Gradient__ctor_m954570311 ();
 extern "C" void Gradient_Init_m4156899649 ();
 extern "C" void Gradient_Cleanup_m3573871739 ();
@@ -8617,6 +8618,7 @@ extern "C" void UpdatedEventHandler__ctor_m1393569768 ();
 extern "C" void UpdatedEventHandler_Invoke_m159598802 ();
 extern "C" void UpdatedEventHandler_BeginInvoke_m4238510153 ();
 extern "C" void UpdatedEventHandler_EndInvoke_m224684362 ();
+extern "C" void Renderer_set_enabled_m142717579 ();
 extern "C" void Renderer_get_sortingLayerID_m2403577271 ();
 extern "C" void Renderer_get_sortingOrder_m1544525007 ();
 extern "C" void RenderTexture_Internal_GetWidth_m2317917654 ();
@@ -8925,6 +8927,7 @@ extern "C" void TypeInferenceRuleAttribute__ctor_m599630929 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m470566337 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m3941510216 ();
 extern "C" void WebRequestUtils_RedirectTo_m3803295888 ();
+extern "C" void WebRequestUtils__cctor_m893658947 ();
 extern "C" void AbstractEventData__ctor_m3586111519 ();
 extern "C" void AbstractEventData_Reset_m15186946 ();
 extern "C" void AbstractEventData_Use_m1797212290 ();
@@ -10455,7 +10458,7 @@ extern "C" void MonkeyMovement_jump_m3619126409 ();
 extern "C" void PlayerController__ctor_m3280132936 ();
 extern "C" void PlayerController_Start_m3606284888 ();
 extern "C" void PlayerController_OnTriggerEnter2D_m429568576 ();
-extern "C" void PlayerController_OnTriggerExit2D_m1507677490 ();
+extern "C" void PlayerController_change_m914321706 ();
 extern "C" void PlayerController_Update_m4228472513 ();
 extern "C" void Vacuum__ctor_m1208197870 ();
 extern "C" void Vacuum_Start_m1614883002 ();
@@ -10471,7 +10474,7 @@ extern "C" void ZoneTwoController__ctor_m2488097657 ();
 extern "C" void ZoneTwoController_Start_m276769473 ();
 extern "C" void ZoneTwoController_OnTriggerEnter2D_m1996809113 ();
 extern "C" void ZoneTwoController_Update_m3283801374 ();
-extern const Il2CppMethodPointer g_MethodPointers[10460] = 
+extern const Il2CppMethodPointer g_MethodPointers[10463] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -18403,6 +18406,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10460] =
 	GameObject_Internal_AddComponentWithType_m214735204,
 	GameObject_AddComponent_m3757565614,
 	GameObject_Internal_CreateGameObject_m3428198595,
+	GameObject_Find_m836511350,
 	Gradient__ctor_m954570311,
 	Gradient_Init_m4156899649,
 	Gradient_Cleanup_m3573871739,
@@ -19079,6 +19083,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10460] =
 	UpdatedEventHandler_Invoke_m159598802,
 	UpdatedEventHandler_BeginInvoke_m4238510153,
 	UpdatedEventHandler_EndInvoke_m224684362,
+	Renderer_set_enabled_m142717579,
 	Renderer_get_sortingLayerID_m2403577271,
 	Renderer_get_sortingOrder_m1544525007,
 	RenderTexture_Internal_GetWidth_m2317917654,
@@ -19387,6 +19392,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10460] =
 	TypeInferenceRuleAttribute__ctor_m470566337,
 	TypeInferenceRuleAttribute_ToString_m3941510216,
 	WebRequestUtils_RedirectTo_m3803295888,
+	WebRequestUtils__cctor_m893658947,
 	AbstractEventData__ctor_m3586111519,
 	AbstractEventData_Reset_m15186946,
 	AbstractEventData_Use_m1797212290,
@@ -20917,7 +20923,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10460] =
 	PlayerController__ctor_m3280132936,
 	PlayerController_Start_m3606284888,
 	PlayerController_OnTriggerEnter2D_m429568576,
-	PlayerController_OnTriggerExit2D_m1507677490,
+	PlayerController_change_m914321706,
 	PlayerController_Update_m4228472513,
 	Vacuum__ctor_m1208197870,
 	Vacuum_Start_m1614883002,
