@@ -57,6 +57,22 @@ public class PlayerController : MonoBehaviour {
 		animalName = animalSprites [animalNumber].name;
 	}
 
+	//
+	// return appropriate jump force per animal
+	//
+	private float getJumpForce(){
+
+		if (animalName == "bear") {
+			return jumpForce * 0.5f;
+
+		} else if (animalName == "monkey") {
+			return jumpForce * 2f; 
+				
+		}
+		return jumpForce;
+
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -82,7 +98,6 @@ public class PlayerController : MonoBehaviour {
 			rb2d.gravityScale = 15;
 		}
 			
-
 		//
 		// react to left right movement
 		//
@@ -93,7 +108,7 @@ public class PlayerController : MonoBehaviour {
 			rb2d.AddForce (new Vector2 (moveForce, 0f));
 
 		}
-
+			
 		//
 		// React to up and down movement
 		// 
@@ -113,14 +128,14 @@ public class PlayerController : MonoBehaviour {
 		//
 		if (animalName == "bird") {
 			if (Input.GetKey ("space")) {
-				rb2d.velocity = new Vector2 (rb2d.velocity.x, jumpForce);
+				rb2d.velocity = new Vector2 (rb2d.velocity.x, getJumpForce());
 
 			}
 
 		} else {
 			if (Input.GetKeyDown ("space") && canJump) {
 				canJump = false;
-				rb2d.velocity = rb2d.velocity + new Vector2 (0f, jumpForce);
+				rb2d.velocity = rb2d.velocity + new Vector2 (0f, getJumpForce());
 			}
 		}
 			
