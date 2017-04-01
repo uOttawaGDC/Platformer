@@ -111,9 +111,17 @@ public class PlayerController : MonoBehaviour {
 		//
 		// react to jumping
 		//
-		if(Input.GetKeyDown("space") && canJump){
-			canJump = false;
-			rb2d.velocity = rb2d.velocity + new Vector2 (0f, jumpForce);
+		if (animalName == "bird") {
+			if (Input.GetKey ("space")) {
+				rb2d.velocity = new Vector2 (rb2d.velocity.x, jumpForce);
+
+			}
+
+		} else {
+			if (Input.GetKeyDown ("space") && canJump) {
+				canJump = false;
+				rb2d.velocity = rb2d.velocity + new Vector2 (0f, jumpForce);
+			}
 		}
 			
 		//
