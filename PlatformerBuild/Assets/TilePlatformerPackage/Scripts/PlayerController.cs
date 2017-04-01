@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 			canJump = true;
 		}
 
-		if(other.tag == "Wood" && false){ // if you touch wood when you're the beaver, eat it
+		if(other.tag == "Wood" && animalName == "beaver"){ // if you touch wood when you're the beaver, eat it
 			Destroy (other.gameObject);
 		}
 	}

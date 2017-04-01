@@ -13286,6 +13286,9 @@ extern const Il2CppType SpriteRendererU5BU5D_t1098056643_0_0_0 = { (void*)&Sprit
 extern const Il2CppType MonkeyMovement_t2858979508_0_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType MonkeyMovement_t2858979508_1_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
+extern const Il2CppType snowmanController_t2349390225_0_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType snowmanController_t2349390225_1_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
 Il2CppGenericClass IComparer_1_t1676750663_GenericClass = { 166, { &GenInst_DefaultComparer_t3074655092_gp_0_0_0_0, NULL }, NULL };
 extern const Il2CppType IComparer_1_t1676750663_0_0_0 = { &IComparer_1_t1676750663_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -13330,7 +13333,7 @@ extern const Il2CppType TypeTagU5BU5D_t582616213_0_0_0 = { (void*)&TypeTag_t1412
 
 extern const Il2CppType ITrackingHandler_t2759960940_0_0_0;
 extern const Il2CppType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const Il2CppType* const  g_Il2CppTypeTable[7061] = 
+extern const Il2CppType* const  g_Il2CppTypeTable[7063] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&Il2CppObject_0_0_0,
@@ -20336,6 +20339,8 @@ extern const Il2CppType* const  g_Il2CppTypeTable[7061] =
 	&SpriteRendererU5BU5D_t1098056643_0_0_1,
 	&MonkeyMovement_t2858979508_0_0_0,
 	&MonkeyMovement_t2858979508_1_0_0,
+	&snowmanController_t2349390225_0_0_0,
+	&snowmanController_t2349390225_1_0_0,
 	&IEnumerator_1_t1705424029_0_0_0,
 	&IEnumerator_1_t4085313661_0_0_0,
 	&IList_1_t260801773_0_0_0,

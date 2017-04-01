@@ -65,7 +65,7 @@ namespace Unity { class Cloth; }
 class Collider2D; template <> void RegisterClass<Collider2D>();
 class BoxCollider2D; template <> void RegisterClass<BoxCollider2D>();
 class CapsuleCollider2D; 
-class CircleCollider2D; 
+class CircleCollider2D; template <> void RegisterClass<CircleCollider2D>();
 class EdgeCollider2D; 
 class PolygonCollider2D; 
 class ConstantForce; 
@@ -234,7 +234,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 65 non stripped classes
+	//Total: 66 non stripped classes
 	//0. Behaviour
 	RegisterClass<Behaviour>();
 	//1. Unity::Component
@@ -351,19 +351,21 @@ RegisterBuiltinTypes();
 	RegisterClass<MeshRenderer>();
 	//57. MeshFilter
 	RegisterClass<MeshFilter>();
-	//58. BoxCollider2D
+	//58. CircleCollider2D
+	RegisterClass<CircleCollider2D>();
+	//59. BoxCollider2D
 	RegisterClass<BoxCollider2D>();
-	//59. MeshCollider
+	//60. MeshCollider
 	RegisterClass<MeshCollider>();
-	//60. AudioListener
+	//61. AudioListener
 	RegisterClass<AudioListener>();
-	//61. AudioBehaviour
+	//62. AudioBehaviour
 	RegisterClass<AudioBehaviour>();
-	//62. RenderSettings
+	//63. RenderSettings
 	RegisterClass<RenderSettings>();
-	//63. FlareLayer
+	//64. FlareLayer
 	RegisterClass<FlareLayer>();
-	//64. LightmapSettings
+	//65. LightmapSettings
 	RegisterClass<LightmapSettings>();
 
 }
