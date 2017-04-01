@@ -441,7 +441,7 @@ extern "C" void Component_GetComponentsInParent_TisIl2CppObject_m1689132204_gsha
 extern "C" void Component_GetComponentsInParent_TisIl2CppObject_m1112546512_gshared ();
 extern "C" void Component_GetComponents_TisIl2CppObject_m1186222966_gshared ();
 extern "C" void Component_GetComponents_TisIl2CppObject_m3998315035_gshared ();
-extern "C" void GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared ();
+extern "C" void GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared ();
 extern "C" void GameObject_GetComponentInChildren_TisIl2CppObject_m327292296_gshared ();
 extern "C" void GameObject_GetComponentInChildren_TisIl2CppObject_m1362037227_gshared ();
 extern "C" void GameObject_GetComponents_TisIl2CppObject_m3618562997_gshared ();
@@ -4537,7 +4537,7 @@ extern const Il2CppMethodPointer g_Il2CppGenericMethodPointers[4094] =
 	(Il2CppMethodPointer)&Component_GetComponentsInParent_TisIl2CppObject_m1112546512_gshared/* 421*/,
 	(Il2CppMethodPointer)&Component_GetComponents_TisIl2CppObject_m1186222966_gshared/* 422*/,
 	(Il2CppMethodPointer)&Component_GetComponents_TisIl2CppObject_m3998315035_gshared/* 423*/,
-	(Il2CppMethodPointer)&GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared/* 424*/,
+	(Il2CppMethodPointer)&GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared/* 424*/,
 	(Il2CppMethodPointer)&GameObject_GetComponentInChildren_TisIl2CppObject_m327292296_gshared/* 425*/,
 	(Il2CppMethodPointer)&GameObject_GetComponentInChildren_TisIl2CppObject_m1362037227_gshared/* 426*/,
 	(Il2CppMethodPointer)&GameObject_GetComponents_TisIl2CppObject_m3618562997_gshared/* 427*/,

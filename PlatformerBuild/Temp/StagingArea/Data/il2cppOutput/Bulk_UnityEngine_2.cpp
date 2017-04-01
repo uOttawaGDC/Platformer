@@ -89,6 +89,11 @@ struct TypeInferenceRuleAttribute_t1390152093;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "UnityEngine_UnityEngine_SystemInfo2353426895.h"
+#include "UnityEngine_UnityEngine_SystemInfo2353426895MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_OperatingSystemFamily1896948788.h"
+#include "UnityEngine_UnityEngine_TextAnchor112990806.h"
+#include "UnityEngine_UnityEngine_TextAnchor112990806MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_TextAreaAttribute2454598508.h"
 #include "UnityEngine_UnityEngine_TextAreaAttribute2454598508MethodDeclarations.h"
 #include "mscorlib_System_Void1841601450.h"
@@ -118,7 +123,6 @@ struct TypeInferenceRuleAttribute_t1390152093;
 #include "mscorlib_System_Single2076509932.h"
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_FontStyle2764949590.h"
-#include "UnityEngine_UnityEngine_TextAnchor112990806.h"
 #include "UnityEngine_UnityEngine_HorizontalWrapMode2027154177.h"
 #include "UnityEngine_UnityEngine_VerticalWrapMode3668245347.h"
 #include "UnityEngine_UnityEngine_Font4239498691.h"
@@ -243,6 +247,15 @@ struct TypeInferenceRuleAttribute_t1390152093;
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.OperatingSystemFamily UnityEngine.SystemInfo::get_operatingSystemFamily()
+extern "C"  int32_t SystemInfo_get_operatingSystemFamily_m3467441443 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (*SystemInfo_get_operatingSystemFamily_m3467441443_ftn) ();
+	static SystemInfo_get_operatingSystemFamily_m3467441443_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_get_operatingSystemFamily_m3467441443_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::get_operatingSystemFamily()");
+	return _il2cpp_icall_func();
+}
 // System.Void UnityEngine.TextAreaAttribute::.ctor(System.Int32,System.Int32)
 extern "C"  void TextAreaAttribute__ctor_m2320572467 (TextAreaAttribute_t2454598508 * __this, int32_t ___minLines0, int32_t ___maxLines1, const MethodInfo* method)
 {
