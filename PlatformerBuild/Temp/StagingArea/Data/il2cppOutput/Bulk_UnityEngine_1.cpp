@@ -294,7 +294,6 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_IMECompositionMode1898275508MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Input1785128008.h"
 #include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UnityEngine_Vector32243707580.h"
 #include "UnityEngine_UnityEngine_Touch407273883.h"
 #include "UnityEngine_UnityEngine_Internal_DefaultValueAttri1027170048.h"
@@ -304,6 +303,7 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_Internal_ExcludeFromDocsAtt665825653MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Internal_DrawArguments2834709342MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Internal_DrawWithTextSelec1327795077MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UnityEngine_KeyCode2283395152MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Keyframe1449471340.h"
 #include "UnityEngine_UnityEngine_Keyframe1449471340MethodDeclarations.h"
@@ -480,8 +480,6 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_SliderState1595681032MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SortingLayer221838959.h"
 #include "UnityEngine_UnityEngine_SortingLayer221838959MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Space4278750806.h"
-#include "UnityEngine_UnityEngine_Space4278750806MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SpaceAttribute952253354.h"
 #include "UnityEngine_UnityEngine_SpaceAttribute952253354MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Sprite309593783.h"
@@ -511,6 +509,7 @@ struct Animator_t69676727;
 #include "UnityEngine_UnityEngine_Experimental_Director_Anim4078305555.h"
 #include "UnityEngine_UnityEngine_SystemInfo2353426895.h"
 #include "UnityEngine_UnityEngine_SystemInfo2353426895MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TextAnchor112990806MethodDeclarations.h"
 
 // System.Int32 UnityEngine.Mesh::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
 extern "C"  int32_t Mesh_SafeLength_TisInt32_t2071877448_m2504367186_gshared (Mesh_t1356156583 * __this, List_1_t1440998580 * ___values0, const MethodInfo* method);
@@ -6841,15 +6840,6 @@ extern "C"  bool Input_GetKeyString_m1463975617 (Il2CppObject * __this /* static
 	_il2cpp_icall_func = (Input_GetKeyString_m1463975617_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyString(System.String)");
 	return _il2cpp_icall_func(___name0);
 }
-// System.Boolean UnityEngine.Input::GetKeyDownInt(System.Int32)
-extern "C"  bool Input_GetKeyDownInt_m2930607648 (Il2CppObject * __this /* static, unused */, int32_t ___key0, const MethodInfo* method)
-{
-	typedef bool (*Input_GetKeyDownInt_m2930607648_ftn) (int32_t);
-	static Input_GetKeyDownInt_m2930607648_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Input_GetKeyDownInt_m2930607648_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownInt(System.Int32)");
-	return _il2cpp_icall_func(___key0);
-}
 // System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
 extern "C"  bool Input_GetKeyDownString_m529184407 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method)
 {
@@ -6858,15 +6848,6 @@ extern "C"  bool Input_GetKeyDownString_m529184407 (Il2CppObject * __this /* sta
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Input_GetKeyDownString_m529184407_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownString(System.String)");
 	return _il2cpp_icall_func(___name0);
-}
-// System.Single UnityEngine.Input::GetAxis(System.String)
-extern "C"  float Input_GetAxis_m2098048324 (Il2CppObject * __this /* static, unused */, String_t* ___axisName0, const MethodInfo* method)
-{
-	typedef float (*Input_GetAxis_m2098048324_ftn) (String_t*);
-	static Input_GetAxis_m2098048324_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Input_GetAxis_m2098048324_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetAxis(System.String)");
-	return _il2cpp_icall_func(___axisName0);
 }
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 extern "C"  float Input_GetAxisRaw_m4133353720 (Il2CppObject * __this /* static, unused */, String_t* ___axisName0, const MethodInfo* method)
@@ -6928,32 +6909,6 @@ extern "C"  bool Input_GetKeyDown_m1749539436 (Il2CppObject * __this /* static, 
 		String_t* L_0 = ___name0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
 		bool L_1 = Input_GetKeyDownString_m529184407(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)
-extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
-extern const uint32_t Input_GetKeyDown_m1771960377_MetadataUsageId;
-extern "C"  bool Input_GetKeyDown_m1771960377 (Il2CppObject * __this /* static, unused */, int32_t ___key0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Input_GetKeyDown_m1771960377_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		int32_t L_0 = ___key0;
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		bool L_1 = Input_GetKeyDownInt_m2930607648(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_000d;
 	}
@@ -16301,35 +16256,6 @@ extern "C"  Object_t1021602117 * Resources_GetBuiltinResource_m582410469 (Il2Cpp
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Resources_GetBuiltinResource_m582410469_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)");
 	return _il2cpp_icall_func(___type0, ___path1);
-}
-// UnityEngine.Vector2 UnityEngine.Rigidbody2D::get_position()
-extern "C"  Vector2_t2243707579  Rigidbody2D_get_position_m1357256809 (Rigidbody2D_t502193897 * __this, const MethodInfo* method)
-{
-	Vector2_t2243707579  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	Vector2_t2243707579  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		Rigidbody2D_INTERNAL_get_position_m1367902426(__this, (&V_0), /*hidden argument*/NULL);
-		Vector2_t2243707579  L_0 = V_0;
-		V_1 = L_0;
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		Vector2_t2243707579  L_1 = V_1;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.Rigidbody2D::INTERNAL_get_position(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_get_position_m1367902426 (Rigidbody2D_t502193897 * __this, Vector2_t2243707579 * ___value0, const MethodInfo* method)
-{
-	typedef void (*Rigidbody2D_INTERNAL_get_position_m1367902426_ftn) (Rigidbody2D_t502193897 *, Vector2_t2243707579 *);
-	static Rigidbody2D_INTERNAL_get_position_m1367902426_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_get_position_m1367902426_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_get_position(UnityEngine.Vector2&)");
-	_il2cpp_icall_func(__this, ___value0);
 }
 // UnityEngine.Vector2 UnityEngine.Rigidbody2D::get_velocity()
 extern "C"  Vector2_t2243707579  Rigidbody2D_get_velocity_m3310151195 (Rigidbody2D_t502193897 * __this, const MethodInfo* method)

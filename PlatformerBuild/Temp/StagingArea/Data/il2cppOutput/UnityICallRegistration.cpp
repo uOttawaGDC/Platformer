@@ -1038,10 +1038,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetButtonDown();
 		Register_UnityEngine_Input_GetButtonDown();
 
-		//System.Boolean UnityEngine.Input::GetKeyDownInt(System.Int32)
-		void Register_UnityEngine_Input_GetKeyDownInt();
-		Register_UnityEngine_Input_GetKeyDownInt();
-
 		//System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
 		void Register_UnityEngine_Input_GetKeyDownString();
 		Register_UnityEngine_Input_GetKeyDownString();
@@ -1073,10 +1069,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Input::get_touchCount()
 		void Register_UnityEngine_Input_get_touchCount();
 		Register_UnityEngine_Input_get_touchCount();
-
-		//System.Single UnityEngine.Input::GetAxis(System.String)
-		void Register_UnityEngine_Input_GetAxis();
-		Register_UnityEngine_Input_GetAxis();
 
 		//System.Single UnityEngine.Input::GetAxisRaw(System.String)
 		void Register_UnityEngine_Input_GetAxisRaw();
@@ -1550,10 +1542,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody2D_INTERNAL_CALL_AddForce();
 		Register_UnityEngine_Rigidbody2D_INTERNAL_CALL_AddForce();
 
-		//System.Void UnityEngine.Rigidbody2D::INTERNAL_get_position(UnityEngine.Vector2&)
-		void Register_UnityEngine_Rigidbody2D_INTERNAL_get_position();
-		Register_UnityEngine_Rigidbody2D_INTERNAL_get_position();
-
 		//System.Void UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)
 		void Register_UnityEngine_Rigidbody2D_INTERNAL_get_velocity();
 		Register_UnityEngine_Rigidbody2D_INTERNAL_get_velocity();
@@ -1786,10 +1774,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
 
-		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
-		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
-		Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
-
 		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformPoint(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
@@ -1829,10 +1813,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::INTERNAL_set_localScale(UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_set_localScale();
 		Register_UnityEngine_Transform_INTERNAL_set_localScale();
-
-		//System.Void UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)
-		void Register_UnityEngine_Transform_INTERNAL_set_position();
-		Register_UnityEngine_Transform_INTERNAL_set_position();
 
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();

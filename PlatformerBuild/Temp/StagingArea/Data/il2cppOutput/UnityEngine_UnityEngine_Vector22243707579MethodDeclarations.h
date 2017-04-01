@@ -40,8 +40,6 @@ extern "C"  String_t* Vector2_ToString_m775491729 (Vector2_t2243707579 * __this,
 extern "C"  int32_t Vector2_GetHashCode_m2353429373 (Vector2_t2243707579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Vector2::Equals(System.Object)
 extern "C"  bool Vector2_Equals_m1405920279 (Vector2_t2243707579 * __this, Il2CppObject * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector2 UnityEngine.Vector2::Reflect(UnityEngine.Vector2,UnityEngine.Vector2)
-extern "C"  Vector2_t2243707579  Vector2_Reflect_m997061260 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___inDirection0, Vector2_t2243707579  ___inNormal1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector2::Dot(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C"  float Vector2_Dot_m778921987 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___lhs0, Vector2_t2243707579  ___rhs1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector2::get_magnitude()
@@ -54,8 +52,6 @@ extern "C"  Vector2_t2243707579  Vector2_op_Addition_m1389598521 (Il2CppObject *
 extern "C"  Vector2_t2243707579  Vector2_op_Subtraction_m1984215297 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___a0, Vector2_t2243707579  ___b1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Multiply(UnityEngine.Vector2,System.Single)
 extern "C"  Vector2_t2243707579  Vector2_op_Multiply_m4236139442 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___a0, float ___d1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector2 UnityEngine.Vector2::op_Multiply(System.Single,UnityEngine.Vector2)
-extern "C"  Vector2_t2243707579  Vector2_op_Multiply_m3393065202 (Il2CppObject * __this /* static, unused */, float ___d0, Vector2_t2243707579  ___a1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Division(UnityEngine.Vector2,System.Single)
 extern "C"  Vector2_t2243707579  Vector2_op_Division_m96580069 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___a0, float ___d1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Vector2::op_Equality(UnityEngine.Vector2,UnityEngine.Vector2)

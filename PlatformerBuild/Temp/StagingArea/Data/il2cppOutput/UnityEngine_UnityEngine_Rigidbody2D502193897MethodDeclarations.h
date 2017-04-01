@@ -20,10 +20,6 @@ struct Rigidbody2D_t502193897;
 #include "UnityEngine_UnityEngine_Rigidbody2D502193897.h"
 #include "UnityEngine_UnityEngine_ForceMode2D4177575466.h"
 
-// UnityEngine.Vector2 UnityEngine.Rigidbody2D::get_position()
-extern "C"  Vector2_t2243707579  Rigidbody2D_get_position_m1357256809 (Rigidbody2D_t502193897 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Rigidbody2D::INTERNAL_get_position(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_get_position_m1367902426 (Rigidbody2D_t502193897 * __this, Vector2_t2243707579 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rigidbody2D::get_velocity()
 extern "C"  Vector2_t2243707579  Rigidbody2D_get_velocity_m3310151195 (Rigidbody2D_t502193897 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::set_velocity(UnityEngine.Vector2)

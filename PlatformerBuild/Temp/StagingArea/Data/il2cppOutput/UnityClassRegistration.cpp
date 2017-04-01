@@ -291,10 +291,10 @@ RegisterBuiltinTypes();
 	RegisterClass<UI::CanvasGroup>();
 	//27. UI::CanvasRenderer
 	RegisterClass<UI::CanvasRenderer>();
-	//28. Collider2D
-	RegisterClass<Collider2D>();
-	//29. SpriteRenderer
+	//28. SpriteRenderer
 	RegisterClass<SpriteRenderer>();
+	//29. Collider2D
+	RegisterClass<Collider2D>();
 	//30. PreloadData
 	RegisterClass<PreloadData>();
 	//31. Cubemap

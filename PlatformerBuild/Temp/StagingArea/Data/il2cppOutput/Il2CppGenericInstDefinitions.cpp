@@ -1422,12 +1422,6 @@ extern const Il2CppGenericInst GenInst_AnimationTriggers_t3244928895_0_0_0 = { 1
 extern const Il2CppType Animator_t69676727_0_0_0;
 static const Il2CppType* GenInst_Animator_t69676727_0_0_0_Types[] = { &Animator_t69676727_0_0_0 };
 extern const Il2CppGenericInst GenInst_Animator_t69676727_0_0_0 = { 1, GenInst_Animator_t69676727_0_0_0_Types };
-extern const Il2CppType Bird_t1163357383_0_0_0;
-static const Il2CppType* GenInst_Bird_t1163357383_0_0_0_Types[] = { &Bird_t1163357383_0_0_0 };
-extern const Il2CppGenericInst GenInst_Bird_t1163357383_0_0_0 = { 1, GenInst_Bird_t1163357383_0_0_0_Types };
-extern const Il2CppType LadderController_t3244329120_0_0_0;
-static const Il2CppType* GenInst_LadderController_t3244329120_0_0_0_Types[] = { &LadderController_t3244329120_0_0_0 };
-extern const Il2CppGenericInst GenInst_LadderController_t3244329120_0_0_0 = { 1, GenInst_LadderController_t3244329120_0_0_0_Types };
 static const Il2CppType* GenInst_Int32_t2071877448_0_0_0_Int32_t2071877448_0_0_0_Types[] = { &Int32_t2071877448_0_0_0, &Int32_t2071877448_0_0_0 };
 extern const Il2CppGenericInst GenInst_Int32_t2071877448_0_0_0_Int32_t2071877448_0_0_0 = { 2, GenInst_Int32_t2071877448_0_0_0_Int32_t2071877448_0_0_0_Types };
 static const Il2CppType* GenInst_CustomAttributeNamedArgument_t94157543_0_0_0_CustomAttributeNamedArgument_t94157543_0_0_0_Types[] = { &CustomAttributeNamedArgument_t94157543_0_0_0, &CustomAttributeNamedArgument_t94157543_0_0_0 };
@@ -1472,7 +1466,7 @@ static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types };
 static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types[] = { &KeyValuePair_2_t38854645_0_0_0, &Il2CppObject_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[508] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[506] = 
 {
 	&GenInst_Il2CppObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -1958,8 +1952,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[508] =
 	&GenInst_TextAnchor_t112990806_0_0_0,
 	&GenInst_AnimationTriggers_t3244928895_0_0_0,
 	&GenInst_Animator_t69676727_0_0_0,
-	&GenInst_Bird_t1163357383_0_0_0,
-	&GenInst_LadderController_t3244329120_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0_Int32_t2071877448_0_0_0,
 	&GenInst_CustomAttributeNamedArgument_t94157543_0_0_0_CustomAttributeNamedArgument_t94157543_0_0_0,
 	&GenInst_CustomAttributeTypedArgument_t1498197914_0_0_0_CustomAttributeTypedArgument_t1498197914_0_0_0,

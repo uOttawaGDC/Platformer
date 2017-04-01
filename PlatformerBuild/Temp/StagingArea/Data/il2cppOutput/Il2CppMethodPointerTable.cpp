@@ -8238,14 +8238,11 @@ extern "C" void HumanBone_get_humanName_m2091758568_AdjustorThunk ();
 extern "C" void HumanBone_set_humanName_m1385708911_AdjustorThunk ();
 extern "C" void IL2CPPStructAlignmentAttribute__ctor_m2555798229 ();
 extern "C" void Input_GetKeyString_m1463975617 ();
-extern "C" void Input_GetKeyDownInt_m2930607648 ();
 extern "C" void Input_GetKeyDownString_m529184407 ();
-extern "C" void Input_GetAxis_m2098048324 ();
 extern "C" void Input_GetAxisRaw_m4133353720 ();
 extern "C" void Input_GetButtonDown_m2792523731 ();
 extern "C" void Input_GetKey_m1856484952 ();
 extern "C" void Input_GetKeyDown_m1749539436 ();
-extern "C" void Input_GetKeyDown_m1771960377 ();
 extern "C" void Input_GetMouseButton_m464100923 ();
 extern "C" void Input_GetMouseButtonDown_m47917805 ();
 extern "C" void Input_GetMouseButtonUp_m1275967966 ();
@@ -8630,8 +8627,6 @@ extern "C" void ResourceRequest__ctor_m3340010930 ();
 extern "C" void ResourceRequest_get_asset_m3527928488 ();
 extern "C" void Resources_Load_m243305716 ();
 extern "C" void Resources_GetBuiltinResource_m582410469 ();
-extern "C" void Rigidbody2D_get_position_m1357256809 ();
-extern "C" void Rigidbody2D_INTERNAL_get_position_m1367902426 ();
 extern "C" void Rigidbody2D_get_velocity_m3310151195 ();
 extern "C" void Rigidbody2D_set_velocity_m3592751374 ();
 extern "C" void Rigidbody2D_INTERNAL_get_velocity_m3018296454 ();
@@ -8790,15 +8785,11 @@ extern "C" void TrackedReference_op_Equality_m3491334086 ();
 extern "C" void TrackedReference_Equals_m3153703389 ();
 extern "C" void TrackedReference_GetHashCode_m811248179 ();
 extern "C" void Transform_get_position_m1104419803 ();
-extern "C" void Transform_set_position_m2469242620 ();
 extern "C" void Transform_INTERNAL_get_position_m1881704498 ();
-extern "C" void Transform_INTERNAL_set_position_m101633598 ();
 extern "C" void Transform_get_localPosition_m2533925116 ();
 extern "C" void Transform_set_localPosition_m1026930133 ();
 extern "C" void Transform_INTERNAL_get_localPosition_m94028171 ();
 extern "C" void Transform_INTERNAL_set_localPosition_m432504087 ();
-extern "C" void Transform_get_right_m440863970 ();
-extern "C" void Transform_get_up_m1603627763 ();
 extern "C" void Transform_get_forward_m1833488937 ();
 extern "C" void Transform_get_rotation_m1033555130 ();
 extern "C" void Transform_INTERNAL_get_rotation_m2427701365 ();
@@ -8818,11 +8809,6 @@ extern "C" void Transform_SetParent_m4124909910 ();
 extern "C" void Transform_SetParent_m1963830867 ();
 extern "C" void Transform_get_worldToLocalMatrix_m3299477436 ();
 extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m3394773201 ();
-extern "C" void Transform_Translate_m423862381 ();
-extern "C" void Transform_Translate_m3577349508 ();
-extern "C" void Transform_Translate_m1198703821 ();
-extern "C" void Transform_TransformDirection_m1639585047 ();
-extern "C" void Transform_INTERNAL_CALL_TransformDirection_m2899991790 ();
 extern "C" void Transform_TransformPoint_m3272254198 ();
 extern "C" void Transform_INTERNAL_CALL_TransformPoint_m4114689647 ();
 extern "C" void Transform_InverseTransformPoint_m2648491174 ();
@@ -8850,14 +8836,12 @@ extern "C" void Vector2_get_normalized_m2985402409_AdjustorThunk ();
 extern "C" void Vector2_ToString_m775491729_AdjustorThunk ();
 extern "C" void Vector2_GetHashCode_m2353429373_AdjustorThunk ();
 extern "C" void Vector2_Equals_m1405920279_AdjustorThunk ();
-extern "C" void Vector2_Reflect_m997061260 ();
 extern "C" void Vector2_Dot_m778921987 ();
 extern "C" void Vector2_get_magnitude_m33802565_AdjustorThunk ();
 extern "C" void Vector2_get_sqrMagnitude_m1226294581_AdjustorThunk ();
 extern "C" void Vector2_op_Addition_m1389598521 ();
 extern "C" void Vector2_op_Subtraction_m1984215297 ();
 extern "C" void Vector2_op_Multiply_m4236139442 ();
-extern "C" void Vector2_op_Multiply_m3393065202 ();
 extern "C" void Vector2_op_Division_m96580069 ();
 extern "C" void Vector2_op_Equality_m4168854394 ();
 extern "C" void Vector2_op_Inequality_m4283136193 ();
@@ -10432,33 +10416,11 @@ extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m497637066 ()
 extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m3227111700 ();
 extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m2935499508 ();
 extern "C" void VerticalLayoutGroup_SetLayoutVertical_m1302409034 ();
-extern "C" void Bird__ctor_m3344943610 ();
-extern "C" void Bird_Update_m930625971 ();
-extern "C" void Bird_setGravityPower_m1916442682 ();
-extern "C" void Bird_fly_m670587853 ();
-extern "C" void Bird_gravityEffect_m3509425663 ();
-extern "C" void Bounce__ctor_m3763797899 ();
-extern "C" void Bounce_OnCollisionEnter2D_m542848601 ();
-extern "C" void Character__ctor_m1610743918 ();
-extern "C" void Character_Start_m2430444898 ();
-extern "C" void Character_FixedUpdate_m239190857 ();
-extern "C" void Character_OnCollisionEnter2D_m278135048 ();
-extern "C" void Character_jump_m3747772484 ();
-extern "C" void Character_move_m3340581163 ();
-extern "C" void LadderController__ctor_m3815250209 ();
-extern "C" void LadderController_Start_m2440432001 ();
-extern "C" void LadderController_hitZoneOne_m2118954132 ();
-extern "C" void LadderController_hitZoneTwo_m1890574054 ();
-extern "C" void LadderController_Update_m4204528522 ();
-extern "C" void MonkeyMovement__ctor_m2392304683 ();
-extern "C" void MonkeyMovement_Start_m587739743 ();
-extern "C" void MonkeyMovement_Update_m2561933234 ();
-extern "C" void MonkeyMovement_movement_m2721181046 ();
-extern "C" void MonkeyMovement_jump_m3619126409 ();
 extern "C" void PlayerController__ctor_m3280132936 ();
 extern "C" void PlayerController_Start_m3606284888 ();
 extern "C" void PlayerController_OnTriggerEnter2D_m429568576 ();
 extern "C" void PlayerController_change_m914321706 ();
+extern "C" void PlayerController_getJumpForce_m1721981899 ();
 extern "C" void PlayerController_Update_m4228472513 ();
 extern "C" void snowmanController__ctor_m1474986808 ();
 extern "C" void snowmanController_Start_m1552144600 ();
@@ -10466,21 +10428,7 @@ extern "C" void snowmanController_OnTriggerEnter2D_m41094768 ();
 extern "C" void snowmanController_OnTriggerExit2D_m3794168146 ();
 extern "C" void snowmanController_attackPlayer_m419289903 ();
 extern "C" void snowmanController_Update_m257385109 ();
-extern "C" void Vacuum__ctor_m1208197870 ();
-extern "C" void Vacuum_Start_m1614883002 ();
-extern "C" void Vacuum_OnTriggerEnter2D_m1536125218 ();
-extern "C" void Vacuum_OnTriggerExit2D_m1991296560 ();
-extern "C" void woodTile__ctor_m2946754204 ();
-extern "C" void woodTile_Update_m2105381573 ();
-extern "C" void ZoneOneController__ctor_m3209234205 ();
-extern "C" void ZoneOneController_Start_m3150341205 ();
-extern "C" void ZoneOneController_OnTriggerEnter2D_m906841133 ();
-extern "C" void ZoneOneController_Update_m2312667824 ();
-extern "C" void ZoneTwoController__ctor_m2488097657 ();
-extern "C" void ZoneTwoController_Start_m276769473 ();
-extern "C" void ZoneTwoController_OnTriggerEnter2D_m1996809113 ();
-extern "C" void ZoneTwoController_Update_m3283801374 ();
-extern const Il2CppMethodPointer g_MethodPointers[10469] = 
+extern const Il2CppMethodPointer g_MethodPointers[10417] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -18709,14 +18657,11 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	HumanBone_set_humanName_m1385708911_AdjustorThunk,
 	IL2CPPStructAlignmentAttribute__ctor_m2555798229,
 	Input_GetKeyString_m1463975617,
-	Input_GetKeyDownInt_m2930607648,
 	Input_GetKeyDownString_m529184407,
-	Input_GetAxis_m2098048324,
 	Input_GetAxisRaw_m4133353720,
 	Input_GetButtonDown_m2792523731,
 	Input_GetKey_m1856484952,
 	Input_GetKeyDown_m1749539436,
-	Input_GetKeyDown_m1771960377,
 	Input_GetMouseButton_m464100923,
 	Input_GetMouseButtonDown_m47917805,
 	Input_GetMouseButtonUp_m1275967966,
@@ -19101,8 +19046,6 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	ResourceRequest_get_asset_m3527928488,
 	Resources_Load_m243305716,
 	Resources_GetBuiltinResource_m582410469,
-	Rigidbody2D_get_position_m1357256809,
-	Rigidbody2D_INTERNAL_get_position_m1367902426,
 	Rigidbody2D_get_velocity_m3310151195,
 	Rigidbody2D_set_velocity_m3592751374,
 	Rigidbody2D_INTERNAL_get_velocity_m3018296454,
@@ -19261,15 +19204,11 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	TrackedReference_Equals_m3153703389,
 	TrackedReference_GetHashCode_m811248179,
 	Transform_get_position_m1104419803,
-	Transform_set_position_m2469242620,
 	Transform_INTERNAL_get_position_m1881704498,
-	Transform_INTERNAL_set_position_m101633598,
 	Transform_get_localPosition_m2533925116,
 	Transform_set_localPosition_m1026930133,
 	Transform_INTERNAL_get_localPosition_m94028171,
 	Transform_INTERNAL_set_localPosition_m432504087,
-	Transform_get_right_m440863970,
-	Transform_get_up_m1603627763,
 	Transform_get_forward_m1833488937,
 	Transform_get_rotation_m1033555130,
 	Transform_INTERNAL_get_rotation_m2427701365,
@@ -19289,11 +19228,6 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	Transform_SetParent_m1963830867,
 	Transform_get_worldToLocalMatrix_m3299477436,
 	Transform_INTERNAL_get_worldToLocalMatrix_m3394773201,
-	Transform_Translate_m423862381,
-	Transform_Translate_m3577349508,
-	Transform_Translate_m1198703821,
-	Transform_TransformDirection_m1639585047,
-	Transform_INTERNAL_CALL_TransformDirection_m2899991790,
 	Transform_TransformPoint_m3272254198,
 	Transform_INTERNAL_CALL_TransformPoint_m4114689647,
 	Transform_InverseTransformPoint_m2648491174,
@@ -19321,14 +19255,12 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	Vector2_ToString_m775491729_AdjustorThunk,
 	Vector2_GetHashCode_m2353429373_AdjustorThunk,
 	Vector2_Equals_m1405920279_AdjustorThunk,
-	Vector2_Reflect_m997061260,
 	Vector2_Dot_m778921987,
 	Vector2_get_magnitude_m33802565_AdjustorThunk,
 	Vector2_get_sqrMagnitude_m1226294581_AdjustorThunk,
 	Vector2_op_Addition_m1389598521,
 	Vector2_op_Subtraction_m1984215297,
 	Vector2_op_Multiply_m4236139442,
-	Vector2_op_Multiply_m3393065202,
 	Vector2_op_Division_m96580069,
 	Vector2_op_Equality_m4168854394,
 	Vector2_op_Inequality_m4283136193,
@@ -20903,33 +20835,11 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	VerticalLayoutGroup_CalculateLayoutInputVertical_m3227111700,
 	VerticalLayoutGroup_SetLayoutHorizontal_m2935499508,
 	VerticalLayoutGroup_SetLayoutVertical_m1302409034,
-	Bird__ctor_m3344943610,
-	Bird_Update_m930625971,
-	Bird_setGravityPower_m1916442682,
-	Bird_fly_m670587853,
-	Bird_gravityEffect_m3509425663,
-	Bounce__ctor_m3763797899,
-	Bounce_OnCollisionEnter2D_m542848601,
-	Character__ctor_m1610743918,
-	Character_Start_m2430444898,
-	Character_FixedUpdate_m239190857,
-	Character_OnCollisionEnter2D_m278135048,
-	Character_jump_m3747772484,
-	Character_move_m3340581163,
-	LadderController__ctor_m3815250209,
-	LadderController_Start_m2440432001,
-	LadderController_hitZoneOne_m2118954132,
-	LadderController_hitZoneTwo_m1890574054,
-	LadderController_Update_m4204528522,
-	MonkeyMovement__ctor_m2392304683,
-	MonkeyMovement_Start_m587739743,
-	MonkeyMovement_Update_m2561933234,
-	MonkeyMovement_movement_m2721181046,
-	MonkeyMovement_jump_m3619126409,
 	PlayerController__ctor_m3280132936,
 	PlayerController_Start_m3606284888,
 	PlayerController_OnTriggerEnter2D_m429568576,
 	PlayerController_change_m914321706,
+	PlayerController_getJumpForce_m1721981899,
 	PlayerController_Update_m4228472513,
 	snowmanController__ctor_m1474986808,
 	snowmanController_Start_m1552144600,
@@ -20937,18 +20847,4 @@ extern const Il2CppMethodPointer g_MethodPointers[10469] =
 	snowmanController_OnTriggerExit2D_m3794168146,
 	snowmanController_attackPlayer_m419289903,
 	snowmanController_Update_m257385109,
-	Vacuum__ctor_m1208197870,
-	Vacuum_Start_m1614883002,
-	Vacuum_OnTriggerEnter2D_m1536125218,
-	Vacuum_OnTriggerExit2D_m1991296560,
-	woodTile__ctor_m2946754204,
-	woodTile_Update_m2105381573,
-	ZoneOneController__ctor_m3209234205,
-	ZoneOneController_Start_m3150341205,
-	ZoneOneController_OnTriggerEnter2D_m906841133,
-	ZoneOneController_Update_m2312667824,
-	ZoneTwoController__ctor_m2488097657,
-	ZoneTwoController_Start_m276769473,
-	ZoneTwoController_OnTriggerEnter2D_m1996809113,
-	ZoneTwoController_Update_m3283801374,
 };

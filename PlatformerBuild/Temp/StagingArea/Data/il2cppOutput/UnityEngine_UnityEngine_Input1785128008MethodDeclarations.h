@@ -17,7 +17,6 @@ struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_String2029220233.h"
-#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UnityEngine_Vector32243707580.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UnityEngine_Touch407273883.h"
@@ -25,12 +24,8 @@ struct String_t;
 
 // System.Boolean UnityEngine.Input::GetKeyString(System.String)
 extern "C"  bool Input_GetKeyString_m1463975617 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyDownInt(System.Int32)
-extern "C"  bool Input_GetKeyDownInt_m2930607648 (Il2CppObject * __this /* static, unused */, int32_t ___key0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
 extern "C"  bool Input_GetKeyDownString_m529184407 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Input::GetAxis(System.String)
-extern "C"  float Input_GetAxis_m2098048324 (Il2CppObject * __this /* static, unused */, String_t* ___axisName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 extern "C"  float Input_GetAxisRaw_m4133353720 (Il2CppObject * __this /* static, unused */, String_t* ___axisName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetButtonDown(System.String)
@@ -39,8 +34,6 @@ extern "C"  bool Input_GetButtonDown_m2792523731 (Il2CppObject * __this /* stati
 extern "C"  bool Input_GetKey_m1856484952 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetKeyDown(System.String)
 extern "C"  bool Input_GetKeyDown_m1749539436 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)
-extern "C"  bool Input_GetKeyDown_m1771960377 (Il2CppObject * __this /* static, unused */, int32_t ___key0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 extern "C"  bool Input_GetMouseButton_m464100923 (Il2CppObject * __this /* static, unused */, int32_t ___button0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
