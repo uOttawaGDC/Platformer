@@ -30,8 +30,7 @@ public class snowmanController : MonoBehaviour {
 		}
 	}
 
-	private void attackPlayer(){
-		Debug.Log ("attack");
+	private void attackPlayer(){		
 		GameObject clone = Instantiate(snowball, transform.position, transform.rotation);
 		float x = player.transform.position.x - transform.position.x;
 		float y = player.transform.position.y - transform.position.y;
