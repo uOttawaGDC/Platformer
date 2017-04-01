@@ -10460,6 +10460,12 @@ extern "C" void PlayerController_Start_m3606284888 ();
 extern "C" void PlayerController_OnTriggerEnter2D_m429568576 ();
 extern "C" void PlayerController_change_m914321706 ();
 extern "C" void PlayerController_Update_m4228472513 ();
+extern "C" void snowmanController__ctor_m1474986808 ();
+extern "C" void snowmanController_Start_m1552144600 ();
+extern "C" void snowmanController_OnTriggerEnter2D_m41094768 ();
+extern "C" void snowmanController_OnTriggerExit2D_m3794168146 ();
+extern "C" void snowmanController_attackPlayer_m419289903 ();
+extern "C" void snowmanController_Update_m257385109 ();
 extern "C" void Vacuum__ctor_m1208197870 ();
 extern "C" void Vacuum_Start_m1614883002 ();
 extern "C" void Vacuum_OnTriggerEnter2D_m1536125218 ();
@@ -10474,7 +10480,7 @@ extern "C" void ZoneTwoController__ctor_m2488097657 ();
 extern "C" void ZoneTwoController_Start_m276769473 ();
 extern "C" void ZoneTwoController_OnTriggerEnter2D_m1996809113 ();
 extern "C" void ZoneTwoController_Update_m3283801374 ();
-extern const Il2CppMethodPointer g_MethodPointers[10463] = 
+extern const Il2CppMethodPointer g_MethodPointers[10469] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -20925,6 +20931,12 @@ extern const Il2CppMethodPointer g_MethodPointers[10463] =
 	PlayerController_OnTriggerEnter2D_m429568576,
 	PlayerController_change_m914321706,
 	PlayerController_Update_m4228472513,
+	snowmanController__ctor_m1474986808,
+	snowmanController_Start_m1552144600,
+	snowmanController_OnTriggerEnter2D_m41094768,
+	snowmanController_OnTriggerExit2D_m3794168146,
+	snowmanController_attackPlayer_m419289903,
+	snowmanController_Update_m257385109,
 	Vacuum__ctor_m1208197870,
 	Vacuum_Start_m1614883002,
 	Vacuum_OnTriggerEnter2D_m1536125218,

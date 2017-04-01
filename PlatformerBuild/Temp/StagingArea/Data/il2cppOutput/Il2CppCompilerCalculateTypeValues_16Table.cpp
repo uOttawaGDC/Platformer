@@ -46,6 +46,7 @@
 #include "AssemblyU2DCSharp_woodTile4287184473.h"
 #include "AssemblyU2DCSharp_PlayerController4148409433.h"
 #include "AssemblyU2DCSharp_MonkeyMovement2858979508.h"
+#include "AssemblyU2DCSharp_snowmanController2349390225.h"
 
 
 
@@ -252,6 +253,16 @@ extern const int32_t g_FieldOffsetTable1638[3] =
 	MonkeyMovement_t2858979508::get_offset_of_xSpeed_2(),
 	MonkeyMovement_t2858979508::get_offset_of_jumpPower_3(),
 	MonkeyMovement_t2858979508::get_offset_of_numberOfJumps_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1639 = { sizeof (snowmanController_t2349390225), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1639[6] = 
+{
+	snowmanController_t2349390225::get_offset_of_player_2(),
+	snowmanController_t2349390225::get_offset_of_snowball_3(),
+	snowmanController_t2349390225::get_offset_of_resetTime_4(),
+	snowmanController_t2349390225::get_offset_of_throwSpeed_5(),
+	snowmanController_t2349390225::get_offset_of_inRange_6(),
+	snowmanController_t2349390225::get_offset_of_coolDown_7(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

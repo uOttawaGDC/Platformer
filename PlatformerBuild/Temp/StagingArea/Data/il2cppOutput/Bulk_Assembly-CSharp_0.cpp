@@ -37,6 +37,8 @@ struct PlayerController_t4148409433;
 struct SpriteRenderer_t1209076198;
 // UnityEngine.Collider2D
 struct Collider2D_t646061738;
+// snowmanController
+struct snowmanController_t2349390225;
 // Vacuum
 struct Vacuum_t2524352827;
 // woodTile
@@ -90,10 +92,15 @@ struct ZoneTwoController_t2084728272;
 #include "UnityEngine_UnityEngine_SpriteRenderer1209076198.h"
 #include "mscorlib_System_Int322071877448.h"
 #include "UnityEngine_UnityEngine_Collider2D646061738.h"
-#include "UnityEngine_UnityEngine_Renderer257310565MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_Renderer257310565MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
+#include "AssemblyU2DCSharp_snowmanController2349390225.h"
+#include "AssemblyU2DCSharp_snowmanController2349390225MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
 #include "AssemblyU2DCSharp_Vacuum2524352827.h"
 #include "AssemblyU2DCSharp_Vacuum2524352827MethodDeclarations.h"
 #include "AssemblyU2DCSharp_woodTile4287184473.h"
@@ -115,6 +122,11 @@ extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gs
 #define Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, method) ((  Rigidbody2D_t502193897 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()
 #define GameObject_GetComponent_TisSpriteRenderer_t1209076198_m1184556631(__this, method) ((  SpriteRenderer_t1209076198 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3829784634_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Vector3_t2243707580  p1, Quaternion_t4030073918  p2, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m3829784634(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+#define Object_Instantiate_TisGameObject_t1756533147_m3064851704(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
 // !!0 UnityEngine.Component::GetComponent<Bird>()
 #define Component_GetComponent_TisBird_t1163357383_m2400807736(__this, method) ((  Bird_t1163357383 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<LadderController>()
@@ -568,8 +580,10 @@ extern "C"  void PlayerController_Start_m3606284888 (PlayerController_t414840943
 }
 // System.Void PlayerController::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3759435351;
 extern Il2CppCodeGenString* _stringLiteral4143129795;
+extern Il2CppCodeGenString* _stringLiteral3452348791;
 extern const uint32_t PlayerController_OnTriggerEnter2D_m429568576_MetadataUsageId;
 extern "C"  void PlayerController_OnTriggerEnter2D_m429568576 (PlayerController_t4148409433 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
 {
@@ -598,7 +612,30 @@ IL_001c:
 		Collider2D_t646061738 * L_3 = ___other0;
 		String_t* L_4 = Component_get_tag_m357168014(L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_op_Equality_m1790663636(NULL /*static, unused*/, L_4, _stringLiteral4143129795, /*hidden argument*/NULL);
+		bool L_5 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_4, _stringLiteral4143129795, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		String_t* L_6 = __this->get_animalName_7();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_6, _stringLiteral3452348791, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Collider2D_t646061738 * L_8 = ___other0;
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m3105766835(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
 		return;
 	}
 }
@@ -916,6 +953,196 @@ IL_021a:
 	}
 
 IL_022f:
+	{
+		return;
+	}
+}
+// System.Void snowmanController::.ctor()
+extern "C"  void snowmanController__ctor_m1474986808 (snowmanController_t2349390225 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void snowmanController::Start()
+extern "C"  void snowmanController_Start_m1552144600 (snowmanController_t2349390225 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_inRange_6((bool)0);
+		__this->set_coolDown_7((0.0f));
+		return;
+	}
+}
+// System.Void snowmanController::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1875862075;
+extern const uint32_t snowmanController_OnTriggerEnter2D_m41094768_MetadataUsageId;
+extern "C"  void snowmanController_OnTriggerEnter2D_m41094768 (snowmanController_t2349390225 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (snowmanController_OnTriggerEnter2D_m41094768_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Collider2D_t646061738 * L_0 = ___other0;
+		String_t* L_1 = Component_get_tag_m357168014(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_1, _stringLiteral1875862075, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		__this->set_inRange_6((bool)1);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void snowmanController::OnTriggerExit2D(UnityEngine.Collider2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1875862075;
+extern const uint32_t snowmanController_OnTriggerExit2D_m3794168146_MetadataUsageId;
+extern "C"  void snowmanController_OnTriggerExit2D_m3794168146 (snowmanController_t2349390225 * __this, Collider2D_t646061738 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (snowmanController_OnTriggerExit2D_m3794168146_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Collider2D_t646061738 * L_0 = ___other0;
+		String_t* L_1 = Component_get_tag_m357168014(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_1, _stringLiteral1875862075, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		__this->set_inRange_6((bool)0);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void snowmanController::attackPlayer()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRigidbody2D_t502193897_m812242143_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4151059802;
+extern const uint32_t snowmanController_attackPlayer_m419289903_MetadataUsageId;
+extern "C"  void snowmanController_attackPlayer_m419289903 (snowmanController_t2349390225 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (snowmanController_attackPlayer_m419289903_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	float V_1 = 0.0f;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector2_t2243707579  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral4151059802, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_0 = __this->get_snowball_3();
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_4 = Transform_get_rotation_m1033555130(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_5 = Object_Instantiate_TisGameObject_t1756533147_m3064851704(NULL /*static, unused*/, L_0, L_2, L_4, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var);
+		V_0 = L_5;
+		GameObject_t1756533147 * L_6 = __this->get_player_2();
+		Transform_t3275118058 * L_7 = GameObject_get_transform_m909382139(L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		float L_9 = (&V_2)->get_x_1();
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_11 = Transform_get_position_m1104419803(L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		float L_12 = (&V_3)->get_x_1();
+		V_1 = ((float)((float)L_9-(float)L_12));
+		GameObject_t1756533147 * L_13 = __this->get_player_2();
+		Transform_t3275118058 * L_14 = GameObject_get_transform_m909382139(L_13, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_15 = Transform_get_position_m1104419803(L_14, /*hidden argument*/NULL);
+		V_5 = L_15;
+		float L_16 = (&V_5)->get_y_2();
+		Transform_t3275118058 * L_17 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_18 = Transform_get_position_m1104419803(L_17, /*hidden argument*/NULL);
+		V_6 = L_18;
+		float L_19 = (&V_6)->get_y_2();
+		V_4 = ((float)((float)L_16-(float)L_19));
+		GameObject_t1756533147 * L_20 = V_0;
+		Rigidbody2D_t502193897 * L_21 = GameObject_GetComponent_TisRigidbody2D_t502193897_m812242143(L_20, /*hidden argument*/GameObject_GetComponent_TisRigidbody2D_t502193897_m812242143_MethodInfo_var);
+		float L_22 = V_1;
+		float L_23 = V_4;
+		Vector2__ctor_m3067419446((&V_7), L_22, L_23, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_24 = Vector2_get_normalized_m2985402409((&V_7), /*hidden argument*/NULL);
+		float L_25 = __this->get_throwSpeed_5();
+		Vector2_t2243707579  L_26 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
+		Rigidbody2D_set_velocity_m3592751374(L_21, L_26, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void snowmanController::Update()
+extern "C"  void snowmanController_Update_m257385109 (snowmanController_t2349390225 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_coolDown_7();
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		bool L_1 = __this->get_inRange_6();
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		float L_2 = __this->get_resetTime_4();
+		__this->set_coolDown_7(L_2);
+		snowmanController_attackPlayer_m419289903(__this, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		goto IL_0044;
+	}
+
+IL_0032:
+	{
+		float L_3 = __this->get_coolDown_7();
+		float L_4 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_coolDown_7(((float)((float)L_3-(float)L_4)));
+	}
+
+IL_0044:
 	{
 		return;
 	}

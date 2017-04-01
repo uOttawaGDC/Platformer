@@ -10,6 +10,7 @@
 <type fullname="woodTile" preserve="all"/>
 <type fullname="PlayerController" preserve="all"/>
 <type fullname="MonkeyMovement" preserve="all"/>
+<type fullname="snowmanController" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>

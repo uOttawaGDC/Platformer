@@ -3595,8 +3595,8 @@ extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m1767088036_gshare
 extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m1736742113_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Transform_t3275118058 * ___parent1, bool ___worldPositionStays2, const MethodInfo* method);
 #define Object_Instantiate_TisIl2CppObject_m1736742113(__this /* static, unused */, ___original0, ___parent1, ___worldPositionStays2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Transform_t3275118058 *, bool, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m1736742113_gshared)(__this /* static, unused */, ___original0, ___parent1, ___worldPositionStays2, method)
 // T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m653480707_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, const MethodInfo* method);
-#define Object_Instantiate_TisIl2CppObject_m653480707(__this /* static, unused */, ___original0, ___position1, ___rotation2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m653480707_gshared)(__this /* static, unused */, ___original0, ___position1, ___rotation2, method)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3829784634_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m3829784634(__this /* static, unused */, ___original0, ___position1, ___rotation2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, ___original0, ___position1, ___rotation2, method)
 // T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
 extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m4219963824_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, Transform_t3275118058 * ___parent3, const MethodInfo* method);
 #define Object_Instantiate_TisIl2CppObject_m4219963824(__this /* static, unused */, ___original0, ___position1, ___rotation2, ___parent3, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , Transform_t3275118058 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m4219963824_gshared)(__this /* static, unused */, ___original0, ___position1, ___rotation2, ___parent3, method)
@@ -51822,13 +51822,13 @@ IL_0019:
 }
 // T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern const uint32_t Object_Instantiate_TisIl2CppObject_m653480707_MetadataUsageId;
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m653480707_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, const MethodInfo* method)
+extern const uint32_t Object_Instantiate_TisIl2CppObject_m3829784634_MetadataUsageId;
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3829784634_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Object_Instantiate_TisIl2CppObject_m653480707_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Object_Instantiate_TisIl2CppObject_m3829784634_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	Il2CppObject * V_0 = NULL;

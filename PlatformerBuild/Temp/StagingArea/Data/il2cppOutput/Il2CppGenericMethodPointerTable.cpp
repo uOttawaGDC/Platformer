@@ -460,7 +460,7 @@ extern "C" void Mesh_SetUvsImpl_TisIl2CppObject_m1356712218_gshared ();
 extern "C" void Resources_ConvertObjects_TisIl2CppObject_m2571720668_gshared ();
 extern "C" void Resources_GetBuiltinResource_TisIl2CppObject_m1023501484_gshared ();
 extern "C" void Object_Instantiate_TisIl2CppObject_m447919519_gshared ();
-extern "C" void Object_Instantiate_TisIl2CppObject_m653480707_gshared ();
+extern "C" void Object_Instantiate_TisIl2CppObject_m3829784634_gshared ();
 extern "C" void Object_Instantiate_TisIl2CppObject_m4219963824_gshared ();
 extern "C" void Object_Instantiate_TisIl2CppObject_m1767088036_gshared ();
 extern "C" void Object_Instantiate_TisIl2CppObject_m1736742113_gshared ();
@@ -4556,7 +4556,7 @@ extern const Il2CppMethodPointer g_Il2CppGenericMethodPointers[4094] =
 	(Il2CppMethodPointer)&Resources_ConvertObjects_TisIl2CppObject_m2571720668_gshared/* 440*/,
 	(Il2CppMethodPointer)&Resources_GetBuiltinResource_TisIl2CppObject_m1023501484_gshared/* 441*/,
 	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m447919519_gshared/* 442*/,
-	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m653480707_gshared/* 443*/,
+	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m3829784634_gshared/* 443*/,
 	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m4219963824_gshared/* 444*/,
 	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m1767088036_gshared/* 445*/,
 	(Il2CppMethodPointer)&Object_Instantiate_TisIl2CppObject_m1736742113_gshared/* 446*/,
